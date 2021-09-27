@@ -403,6 +403,8 @@ header .big_menu .row .col:last-child {
 /* footer
 ==================================*/
 footer {
+  position: relative;
+  z-index: -1;
   background: #302d2b;
   padding-top: 80px;
   padding-bottom: 35px;
@@ -625,9 +627,9 @@ footer .footer_inner .row .col:last-child .copy {
 
 #pageTop {
   opacity: 0;
-  position: fixed;
-  right: 0;
-  bottom: 0;
+  position: absolute;
+  left: 25px;
+  top: -25px;
   z-index: 888;
   transition: 0.3s;
 }
@@ -636,9 +638,17 @@ footer .footer_inner .row .col:last-child .copy {
   opacity: 1;
 }
 
+#pageTop img {
+  width: 5px;
+}
+
 #pageTop a {
   display: block;
   width: 50px;
+}
+
+#pageTop a:hover {
+  opacity: 0.7;
 }
 
 /* loader

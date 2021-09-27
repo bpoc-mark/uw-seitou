@@ -97,3 +97,7 @@
 		</div>
 	</div>
 </div>
+
+<a href="#" id="pageTop">
+	<img src="/images/common/to_top.png" alt="">
+</a>

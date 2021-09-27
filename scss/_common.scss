@@ -393,6 +393,8 @@ header {
 /* footer
 ==================================*/
 footer {
+  position: relative;
+  z-index: -1;
   background: #302d2b;
   padding-top: 150px;
   padding-bottom: 50px;
@@ -568,9 +570,9 @@ footer {
 
 #pageTop {
   opacity: 0;
-  position: fixed;
-  right: 0;
-  bottom: 0;
+  position: absolute;
+  left: 50px;
+  top: -50px;
   z-index: 888;
   transition: 0.3s;
   &.active {
