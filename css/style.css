@@ -395,7 +395,7 @@ header .big_menu .row .col:last-child {
 ==================================*/
 footer {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   background: #302d2b;
   padding-top: 150px;
   padding-bottom: 50px;
@@ -1097,6 +1097,8 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-right: 60px;
   float: right;
   margin-top: -15px;
+  position: relative;
+  z-index: 2;
 }
 
 #Top main .sect_2 .wrapper .sect_2_slider {
@@ -1477,6 +1479,11 @@ img[src$=".png"], img[src$=".jpg"] {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
+}
+
+#Top main .sect_7 {
+  position: relative;
+  z-index: 2;
 }
 
 #Top main .sect_7 .wrapper {

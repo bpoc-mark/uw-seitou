@@ -504,6 +504,8 @@
   }
 
   .sect_7{
+    position: relative;
+    z-index: 2;
     .wrapper{
       padding-left: 50px;
       .row{
