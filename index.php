@@ -58,10 +58,10 @@
 			</section>
 			<section class="sect_2">
 				<div class="wrapper">
-					<h3>PICK UP</h3>
+					<h3 class="c-anim-up">PICK UP</h3>
 					<a href="" class="btn_viewall">VIEW ALL</a>
 					<!-- Slider main container -->
-					<div class="swiper sect_2_slider">
+					<div class="swiper sect_2_slider c-anim-up">
 						<!-- Additional required wrapper -->
 						<div class="swiper-wrapper">
 							<!-- Slides -->
@@ -105,11 +105,11 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="col">
-							<h4>毎日の料理時間を、<br>
+							<h4 class="c-anim-up">毎日の料理時間を、<br>
 								もっと楽しく豊かに。</h4>
 						</div>
 						<div class="col">
-							<p>
+							<p class="c-anim-up">
 							めまぐるしく過ぎていく日々のなかで、お家でゆったりと過ごしていますか？<br>
 							にぎやかな街もステキですが、自分だけの空間"お家"で過ごす時間を大事にしてほしい。<br>
 							私たちセイトウはお家で過ごすここちいい時間をつくるお手伝いができればと考え、<br>
@@ -123,13 +123,13 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="col">
-							<p>KITCHEN <br>
+							<p class="c-anim-up">KITCHEN <br>
 								GOODS</p>
 							<a href="">
 								<img src="/images/top/section_4/arrow.svg" alt="">
 							</a>
 						</div>
-						<div class="col">
+						<div class="col c-anim-up">
 							<picture>
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 								<source srcset="/images/top/sp/section_4/img_1.png" media="(max-width: 899px)" type="image/webp">
@@ -138,7 +138,7 @@
 							</picture>
 						</div>
 					</div>
-					<div class="desc_cont">
+					<div class="desc_cont c-anim-up">
 						<p>
 						キッチン用品店 <br class="sp">「キッチンスタジオ セイ」
 						</p>
@@ -146,7 +146,7 @@
 						おります。<br class="sp">日々の暮らしを通して、使い心地のよいものをご提案いたします。</p>
 					</div>
 				</div>
-				<div class="swiper sect_4_slider">
+				<div class="swiper sect_4_slider c-anim-up">
 					<!-- Additional required wrapper -->
 					<div class="swiper-wrapper">
 						<!-- Slides -->
@@ -196,12 +196,12 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="col">
-							<p>GIFT SHOP</p>
+							<p class="c-anim-up">GIFT SHOP</p>
 							<a href="">
 								<img src="/images/top/section_4/arrow.svg" alt="">
 							</a>
 						</div>
-						<div class="col">
+						<div class="col c-anim-up">
 							<picture>
 								<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 								<source srcset="/images/top/sp/section_5/img_1.png" media="(max-width: 899px)" type="image/webp">
@@ -210,7 +210,7 @@
 							</picture>
 						</div>
 					</div>
-					<div class="desc_cont">
+					<div class="desc_cont c-anim-up">
 						<p>
 						ギフト専門店 「ギフトピュア」
 						</p>
@@ -218,7 +218,7 @@
 						おります。<br class="sp">日々の暮らしを通して、使い心地のよいものをご提案いたします。</p>
 					</div>
 				</div>
-				<div class="swiper sect_4_slider">
+				<div class="swiper sect_4_slider c-anim-up">
 					<!-- Additional required wrapper -->
 					<div class="swiper-wrapper">
 						<!-- Slides -->
@@ -266,15 +266,15 @@
 			</section>
 			<section class="sect_6">
 				<div class="wrapper">
-					<div class="txt_cont">
-						<span>ONE STOP SERVICE</span>
-						<h3>飲食店オープンの<br class="sp">ワンストップサービス</h3>
-						<p class="pc">お客様のご要望をしっかりと把握しプランを組み立て、イメージに合った最高クラスのものをご予算内でご提案。<br>
+					<div class="txt_cont c-anim-up">
+						<span class="c-anim-up">ONE STOP SERVICE</span>
+						<h3 class="c-anim-up">飲食店オープンの<br class="sp">ワンストップサービス</h3>
+						<p class="pc c-anim-up">お客様のご要望をしっかりと把握しプランを組み立て、イメージに合った最高クラスのものをご予算内でご提案。<br>
 							信頼のおける数多のブランドからトータルコーディネイト致します。<br>
 							長年の経験値と培った提案力でお客様のサポートをお約束します。</p>
 						<a href="" class="btn_viewmore pc">VIEW MORE</a>
 					</div>
-					<p class="sp">お客様のご要望をしっかりと把握しプランを組み立て、イメージに合った最高クラスのものをご予算内でご提案。<br>
+					<p class="sp c-anim-up">お客様のご要望をしっかりと把握しプランを組み立て、イメージに合った最高クラスのものをご予算内でご提案。<br>
 							信頼のおける数多のブランドからトータルコーディネイト致します。<br>
 							長年の経験値と培った提案力でお客様のサポートをお約束します。
 							<a href="" class=""><img src="./images/top/section_6/arrow.svg" alt=""></a></p>
@@ -284,24 +284,24 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="col">
-							<img src="/images/top/section_7/img_1.png" alt="">
+							<img src="/images/top/section_7/img_1.png" alt="" class="c-anim-up">
 							<ul>
-								<li>
+								<li class="c-anim-up">
 									<a href="">COMPANY <span>/  会社案内</span></a>
 									<img src="/images/top/section_7/arrow.svg" alt="">
 								</li>
-								<li>
+								<li class="c-anim-up">
 									<a href="">CO-OP <span>/  会社案内</span></a>
 									<img src="/images/top/section_7/arrow.svg" alt="">
 								</li>
-								<li>
+								<li class="c-anim-up">
 									<a href="">RECRUIT <span>/  採用情報</span></a>
 									<img src="/images/top/section_7/arrow.svg" alt="">
 								</li>
 							</ul>
 						</div>
 						<div class="col">
-							<img src="/images/top/section_7/img_2.png" alt="">
+							<img src="/images/top/section_7/img_2.png" alt="" class="c-anim-up">
 						</div>
 					</div>
 				</div>
@@ -391,6 +391,7 @@
 			direction: 'horizontal',
 			loop: true,
 			speed: 2000,
+			disableOnInteraction: true,
 			autoplay: {
 				delay: 1000,
 			},
