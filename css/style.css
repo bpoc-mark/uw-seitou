@@ -82,7 +82,205 @@ header {
 /* footer
 ==================================*/
 footer {
-  margin-top: 300px;
+  background: #302d2b;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 60px;
+  margin-top: -90px;
+}
+
+footer .footer_inner .logo {
+  margin-bottom: 30px;
+}
+
+footer .footer_inner .logo a img {
+  width: 113px;
+}
+
+footer .footer_inner .row {
+  justify-content: space-between;
+}
+
+footer .footer_inner .row .col:first-child {
+  max-width: 480px;
+}
+
+@media only screen and (max-width: 1200px) {
+  footer .footer_inner .row .col:first-child {
+    width: 49%;
+  }
+}
+
+footer .footer_inner .row .col:first-child nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #595755;
+}
+
+footer .footer_inner .row .col:first-child nav ul:first-child li:nth-of-type(2) {
+  margin-bottom: 32px;
+}
+
+footer .footer_inner .row .col:first-child nav ul li {
+  margin-bottom: 15px;
+}
+
+footer .footer_inner .row .col:first-child nav ul li a {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: .15em;
+}
+
+footer .footer_inner .row .col:first-child nav ul li .sub_menu {
+  margin-top: 10px;
+}
+
+footer .footer_inner .row .col:first-child nav ul li .sub_menu li {
+  margin-bottom: 5px;
+}
+
+footer .footer_inner .row .col:first-child nav ul li .sub_menu li::before {
+  content: "\2022";
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: -5px;
+  margin-left: 7px;
+  width: 15px;
+}
+
+footer .footer_inner .row .col:first-child nav ul li .sub_menu li a {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: .1em;
+}
+
+footer .footer_inner .row .col:first-child p {
+  margin-top: 25px;
+  text-align: left;
+}
+
+footer .footer_inner .row .col:first-child p a {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: .15em;
+}
+
+footer .footer_inner .row .col:first-child p a:first-child::after {
+  content: "/";
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: .15em;
+  margin: 0 10px;
+}
+
+footer .footer_inner .row .col:first-child .copy {
+  margin-top: 50px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: #fff;
+  letter-spacing: .15em;
+}
+
+footer .footer_inner .row .col:last-child {
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 1200px) {
+  footer .footer_inner .row .col:last-child {
+    width: 49%;
+  }
+}
+
+footer .footer_inner .row .col:last-child .img_link {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer_inner .row .col:last-child .img_link li {
+  width: 49%;
+}
+
+footer .footer_inner .row .col:last-child .sns_link {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer_inner .row .col:last-child .sns_link li {
+  width: 25%;
+  text-align: center;
+}
+
+footer .footer_inner .row .col:last-child .sns_link li:nth-of-type(1) a {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+}
+
+footer .footer_inner .row .col:last-child .sns_link li:not(:last-child) {
+  border-right: 1px solid #595755;
+}
+
+footer .footer_inner .row .col:last-child .sns_link li a {
+  display: block;
+  text-align: center;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 11px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer_inner .row .col:last-child .sns_link li a img {
+  width: 19px;
+}
+
+footer .footer_inner .row .col:last-child .sns_link li a span {
+  display: block;
+  text-align: left;
+  line-height: 12px;
+  margin-left: 5px;
+}
+
+footer .footer_inner .row .col:last-child .footer_details {
+  margin-top: 110px;
+  margin-left: auto;
+  width: 270px;
+}
+
+footer .footer_inner .row .col:last-child .footer_details img {
+  margin-bottom: 20px;
+}
+
+footer .footer_inner .row .col:last-child .footer_details p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  line-height: 25.2px;
+}
+
+footer .footer_inner .row .col:last-child .footer_details p a {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  line-height: 25.2px;
 }
 
 #pageTop {

@@ -141,7 +141,224 @@ header nav {
 /* footer
 ==================================*/
 footer {
-  background: #000;
+  background: #302d2b;
+  padding-top: 80px;
+  padding-bottom: 35px;
+  padding-left: 50px;
+  padding-right: 15px;
+  margin-top: -50px;
+}
+
+footer .footer_inner .logo {
+  margin-bottom: 20px;
+}
+
+footer .footer_inner .logo a img {
+  width: 81px;
+}
+
+footer .footer_inner .row {
+  justify-content: space-between;
+}
+
+footer .footer_inner .row .col:first-child {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+footer .footer_inner .row .col:first-child nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #595755;
+  padding-bottom: 10px;
+}
+
+footer .footer_inner .row .col:first-child nav ul {
+  width: 100%;
+}
+
+footer .footer_inner .row .col:first-child nav ul li {
+  margin-bottom: 10px;
+}
+
+footer .footer_inner .row .col:first-child nav ul li a {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #fff;
+  letter-spacing: .15em;
+}
+
+footer .footer_inner .row .col:first-child nav ul li .sub_menu {
+  margin-top: 0;
+}
+
+footer .footer_inner .row .col:first-child nav ul li .sub_menu li {
+  margin-bottom: 0;
+}
+
+footer .footer_inner .row .col:first-child nav ul li .sub_menu li::before {
+  content: "\2022";
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: -5px;
+  margin-left: 7px;
+  width: 15px;
+}
+
+footer .footer_inner .row .col:first-child nav ul li .sub_menu li a {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 10px;
+  color: #fff;
+  letter-spacing: .1em;
+}
+
+footer .footer_inner .row .col:first-child p {
+  margin-top: 25px;
+  text-align: left;
+}
+
+footer .footer_inner .row .col:first-child p a {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: .15em;
+}
+
+footer .footer_inner .row .col:first-child p a:first-child::after {
+  content: "/";
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: .15em;
+  margin: 0 10px;
+}
+
+footer .footer_inner .row .col:first-child .copy {
+  margin-top: 50px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: #fff;
+  letter-spacing: .15em;
+}
+
+footer .footer_inner .row .col:last-child {
+  width: 100%;
+}
+
+footer .footer_inner .row .col:last-child .img_link li {
+  margin-bottom: 10px;
+}
+
+footer .footer_inner .row .col:last-child .img_link li a img {
+  width: 196px;
+}
+
+footer .footer_inner .row .col:last-child .sns_link {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer_inner .row .col:last-child .sns_link li {
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+@media only screen and (max-width: 370px) {
+  footer .footer_inner .row .col:last-child .sns_link li {
+    width: calc(100% / 2);
+  }
+}
+
+footer .footer_inner .row .col:last-child .sns_link li:nth-of-type(1) {
+  width: 100%;
+  border-right: none !important;
+  margin-bottom: 15px;
+}
+
+footer .footer_inner .row .col:last-child .sns_link li:nth-of-type(1) a {
+  display: block;
+  text-align: left;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 13px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 370px) {
+  footer .footer_inner .row .col:last-child .sns_link li:nth-of-type(4) {
+    margin-top: 15px;
+    padding-right: 18px;
+  }
+}
+
+footer .footer_inner .row .col:last-child .sns_link li:not(:last-child) {
+  border-right: 1px solid #595755;
+}
+
+footer .footer_inner .row .col:last-child .sns_link li a {
+  display: block;
+  text-align: center;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer_inner .row .col:last-child .sns_link li a img {
+  width: 19px;
+}
+
+footer .footer_inner .row .col:last-child .sns_link li a span {
+  display: block;
+  text-align: left;
+  line-height: 12px;
+  margin-left: 5px;
+}
+
+footer .footer_inner .row .col:last-child .footer_details {
+  margin-top: 50px;
+}
+
+footer .footer_inner .row .col:last-child .footer_details img {
+  margin-bottom: 10px;
+}
+
+footer .footer_inner .row .col:last-child .footer_details p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  line-height: 21px;
+}
+
+footer .footer_inner .row .col:last-child .footer_details p a {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  line-height: 21px;
+}
+
+footer .footer_inner .row .col:last-child .copy {
+  margin-top: 25px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 300;
+  font-size: 9px;
+  color: #fff;
+  letter-spacing: .15em;
 }
 
 #pageTop {
@@ -1088,6 +1305,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_7 .wrapper .row .col:first-child ul {
+  background-color: #fff;
   list-style: none;
   padding: 35px 20px 45px;
 }

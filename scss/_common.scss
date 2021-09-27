@@ -74,8 +74,177 @@ header {
 /* footer
 ==================================*/
 footer {
-  // background: #000;
-  margin-top:300px;
+  background: #302d2b;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 60px;
+  margin-top: -90px;
+  .footer_inner{
+    .logo{
+      margin-bottom: 30px;
+      a{
+        img{
+          width: 113px;
+        }
+      }
+    }
+    .row{
+      justify-content: space-between;
+      .col{
+        &:first-child{
+          max-width: 480px;
+          @media only screen and (max-width: 1200px) {
+            width: 49%;
+          }
+          nav{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #595755;
+            ul{
+              &:first-child{
+                li{
+                  &:nth-of-type(2){
+                    margin-bottom: 32px;
+                  }
+                }
+              }
+              li{
+                margin-bottom: 15px;
+                a{
+                  @include Hind_Siliguri(300);
+                  font-size: 16px;
+                  color: #fff;
+                  letter-spacing: .15em;
+                }
+                .sub_menu{
+                  margin-top: 10px;
+                  li{
+                    margin-bottom: 5px;
+                    &::before{
+                      content: "\2022";
+                      color: #fff;
+                      font-weight: bold;
+                      display: inline-block; 
+                      margin-right: -5px;
+                      margin-left: 7px;
+                      width: 15px;
+                    }
+                    a{
+                      @include Noto_Sans(300);
+                      font-size: 12px;
+                      color: #fff;
+                      letter-spacing: .1em;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          p{
+            margin-top: 25px;
+            text-align: left;
+            a{
+              @include Hind_Siliguri(300);
+              font-size: 14px;
+              color: #fff;
+              letter-spacing: .15em;
+
+              &:first-child{
+                &::after{
+                  content: "/";
+                  @include Hind_Siliguri(300);
+                  font-size: 14px;
+                  color: #fff;
+                  letter-spacing: .15em;
+                  margin: 0 10px;
+                }
+              }
+            }
+          }
+          .copy{
+            margin-top: 50px;
+            @include Hind_Siliguri(300);
+            font-size: 10px;
+            color: #fff;
+            letter-spacing: .15em;
+          }
+        }
+        &:last-child{
+          max-width: 500px;
+          @media only screen and (max-width: 1200px) {
+            width: 49%;
+          }
+          .img_link{
+            display: flex;
+            justify-content: space-between;
+            li{
+              width: 49%;
+            }
+          }
+          .sns_link{
+            margin-top: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            li{
+              width: 25%;
+              text-align: center;
+              &:nth-of-type(1){
+                a{
+                  @include Noto_Sans(300);
+                  font-size: 14px;
+                  color: #fff;
+                }
+              }
+              &:not(:last-child){
+                border-right: 1px solid #595755;
+              }
+              a{
+                display: block;
+                text-align: center;
+                @include Noto_Sans(300);
+                font-size: 11px;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                  width: 19px;
+                }
+                span{
+                  display: block;
+                  text-align: left;
+                  line-height: 12px;
+                  margin-left: 5px;
+                }
+              }
+            }
+          }
+          .footer_details{
+            margin-top: 110px;
+            margin-left: auto;
+            width: 270px;
+            img{
+              margin-bottom: 20px
+            }
+            p{
+              @include Noto_Sans(300);
+              font-size: 14px;
+              color: #fff;
+              line-height: 25.2px;
+              a{
+                @include Noto_Sans(300);
+                font-size: 14px;
+                color: #fff;
+                line-height: 25.2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 #pageTop {
