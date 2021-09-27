@@ -26,6 +26,13 @@ $(function () {
 });
 
 
+$('.menu').click(function () {
+  $('.line').toggleClass('show');
+  $('header').toggleClass('active');
+  $('.big_menu').fadeToggle();
+  $('.big_menu').toggleClass('active');
+});
+
 
 // シンプルローディング
 const spinner = document.querySelector('#loading');
