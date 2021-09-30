@@ -1182,11 +1182,21 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 23px;
 }
 
+#Top main .sect_2 .wrapper .sect_2_slider .swiper-button-prev {
+  width: 10%;
+  top: 32%;
+  left: 5px;
+}
+
+#Top main .sect_2 .wrapper .sect_2_slider .swiper-button-prev::after {
+  content: "";
+}
+
 #Top main .sect_2 .wrapper .sect_2_slider .swiper-button-next {
   width: 10%;
   top: 32%;
-  right: unset;
-  left: 5px;
+  right: 7%;
+  transform: scaleX(-1);
 }
 
 #Top main .sect_2 .wrapper .sect_2_slider .swiper-button-next::after {
@@ -1328,6 +1338,10 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-left: 50px;
 }
 
+#Top main .sect_4 .sect_4_slider .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
 #Top main .sect_4 .sect_4_slider .swiper-wrapper .swiper-slide a img {
   width: 100%;
 }
@@ -1460,6 +1474,10 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-left: 50px;
 }
 
+#Top main .sect_5 .sect_4_slider .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
 #Top main .sect_5 .sect_4_slider .swiper-wrapper .swiper-slide a img {
   width: 100%;
 }
@@ -1509,14 +1527,18 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_6 .wrapper .txt_cont {
-  padding: 65px 15px 50px 30px;
   background-image: url(../images/top/section_6/bg_img.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-#Top main .sect_6 .wrapper .txt_cont span {
+#Top main .sect_6 .wrapper .txt_cont .btn_link {
+  display: block;
+  padding: 65px 15px 50px 30px;
+}
+
+#Top main .sect_6 .wrapper .txt_cont .btn_link span {
   font-family: 'Hind Siliguri', sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -1524,7 +1546,7 @@ img[src$=".png"], img[src$=".jpg"] {
   letter-spacing: .2em;
 }
 
-#Top main .sect_6 .wrapper .txt_cont h3 {
+#Top main .sect_6 .wrapper .txt_cont .btn_link h3 {
   font-family: "Noto Sans JP";
   font-weight: 500;
   font-size: 22px;
@@ -1533,7 +1555,8 @@ img[src$=".png"], img[src$=".jpg"] {
   margin: 10px 0 0;
 }
 
-#Top main .sect_6 .wrapper p {
+#Top main .sect_6 .wrapper a.sp {
+  display: block;
   background-color: #302d2b;
   padding: 30px 15px 35px 30px;
   font-family: "Noto Sans JP";
@@ -1543,13 +1566,9 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 33.6px;
 }
 
-#Top main .sect_6 .wrapper p a {
+#Top main .sect_6 .wrapper a.sp img {
   display: block;
-  width: 100%;
-  text-align: right;
-}
-
-#Top main .sect_6 .wrapper p a img {
+  margin-left: auto;
   width: 24px;
 }
 

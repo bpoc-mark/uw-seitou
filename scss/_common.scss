@@ -296,6 +296,22 @@ header {
                   font-size: 22px;
                   color: #fff;
                   letter-spacing: .15em;
+                  position: relative;
+                  &:hover{
+                    &::after{
+                      width: 100%;
+                    }
+                  }
+                  &::after{
+                    content: "";
+                    transition: .3s ease-in-out;
+                    position: absolute;
+                    bottom: -15px;
+                    left: 0;
+                    width: 0;
+                    height: 1px;
+                    background-color: #595755;
+                  }
                   span{
                     @include Noto_Sans(300);
                     font-size: 11px;
@@ -322,6 +338,9 @@ header {
                       @include Noto_Sans(300);
                       font-size: 13px;
                       color: #fff;
+                      &::after{
+                        bottom: -5px;
+                      }
                     }
                   }
                 }
@@ -355,6 +374,22 @@ header {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                position: relative;
+                &:hover{
+                  &::after{
+                    width: 100%;
+                  }
+                }
+                &::after{
+                  content: "";
+                  transition: .3s ease-in-out;
+                  position: absolute;
+                  bottom: -5px;
+                  left: 0;
+                  width: 0;
+                  height: 1px;
+                  background-color: #595755;
+                }
                 img{
                   width: 20px;
                   margin-right: 5px;
@@ -437,6 +472,22 @@ footer {
                   font-size: 16px;
                   color: #fff;
                   letter-spacing: .15em;
+                  position: relative;
+                  &:hover{
+                    &::after{
+                      width: 100%;
+                    }
+                  }
+                  &::after{
+                    content: "";
+                    transition: .3s ease-in-out;
+                    position: absolute;
+                    bottom: -5px;
+                    left: 0;
+                    width: 0;
+                    height: 1px;
+                    background-color: #595755;
+                  }
                 }
                 .sub_menu{
                   margin-top: 10px;
@@ -470,7 +521,22 @@ footer {
               font-size: 14px;
               color: #fff;
               letter-spacing: .15em;
-
+              position: relative;
+              &:hover{
+                &::before{
+                  width: 100%;
+                }
+              }
+              &::before{
+                content: "";
+                transition: .3s ease-in-out;
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                width: 0;
+                height: 1px;
+                background-color: #595755;
+              }
               &:first-child{
                 &::after{
                   content: "/";
@@ -501,6 +567,16 @@ footer {
             justify-content: space-between;
             li{
               width: 49%;
+              a{
+                &:hover{
+                  img{
+                    opacity: .7;
+                  }
+                }
+                img{
+                  transition: .3s ease-in-out;
+                }
+              }
             }
           }
           .sns_link{
@@ -530,6 +606,22 @@ footer {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                position: relative;
+                &:hover{
+                  &::after{
+                    width: 100%;
+                  }
+                }
+                &::after{
+                  content: "";
+                  transition: .3s ease-in-out;
+                  position: absolute;
+                  bottom: -5px;
+                  left: 0;
+                  width: 0;
+                  height: 1px;
+                  background-color: #595755;
+                }
                 img{
                   width: 19px;
                 }

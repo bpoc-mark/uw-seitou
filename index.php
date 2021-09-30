@@ -91,7 +91,9 @@
 						<!-- <div class="swiper-pagination"></div> -->
 
 						<!-- If we need navigation buttons -->
-						<!-- <div class="swiper-button-prev"></div> -->
+						<div class="swiper-button-prev">
+							<img src="/images/top/section_2/next_arrow.svg" alt="">
+						</div>
 						<div class="swiper-button-next">
 							<img src="/images/top/section_2/next_arrow.svg" alt="">
 						</div>
@@ -267,17 +269,20 @@
 			<section class="sect_6">
 				<div class="wrapper">
 					<div class="txt_cont c-anim-up">
-						<span class="c-anim-up">ONE STOP SERVICE</span>
-						<h3 class="c-anim-up">飲食店オープンの<br class="sp">ワンストップサービス</h3>
-						<p class="pc c-anim-up">お客様のご要望をしっかりと把握しプランを組み立て、イメージに合った最高クラスのものをご予算内でご提案。<br>
-							信頼のおける数多のブランドからトータルコーディネイト致します。<br>
-							長年の経験値と培った提案力でお客様のサポートをお約束します。</p>
-						<a href="" class="btn_viewmore pc">VIEW MORE</a>
+						<a href="" class="btn_link">
+							<span class="c-anim-up">ONE STOP SERVICE</span>
+							<h3 class="c-anim-up">飲食店オープンの<br class="sp">ワンストップサービス</h3>
+							<p class="pc c-anim-up">お客様のご要望をしっかりと把握しプランを組み立て、イメージに合った最高クラスのものをご予算内でご提案。<br>
+								信頼のおける数多のブランドからトータルコーディネイト致します。<br>
+								長年の経験値と培った提案力でお客様のサポートをお約束します。</p>
+							<p href="" class="btn_viewmore pc">VIEW MORE</p>
+						</a>
 					</div>
-					<p class="sp c-anim-up">お客様のご要望をしっかりと把握しプランを組み立て、イメージに合った最高クラスのものをご予算内でご提案。<br>
+					<a href="" class="sp c-anim-up">お客様のご要望をしっかりと把握しプランを組み立て、イメージに合った最高クラスのものをご予算内でご提案。<br>
 							信頼のおける数多のブランドからトータルコーディネイト致します。<br>
 							長年の経験値と培った提案力でお客様のサポートをお約束します。
-							<a href="" class=""><img src="./images/top/section_6/arrow.svg" alt=""></a></p>
+							<img src="./images/top/section_6/arrow.svg" alt="">
+					</a>
 				</div>
 			</section>
 			<section class="sect_7">
@@ -390,10 +395,13 @@
 			// Optional parameters
 			direction: 'horizontal',
 			loop: true,
-			speed: 2000,
-			disableOnInteraction: true,
+			freeModeMomentum: false,
+			freeMode: true,
+			speed: 5000,
+			allowTouchMove: false,
 			autoplay: {
-				delay: 1000,
+				delay: 1,
+				disableOnInteraction: false,
 			},
 			// If we need pagination
 			// Responsive breakpoints

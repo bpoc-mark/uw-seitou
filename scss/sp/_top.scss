@@ -135,14 +135,22 @@
             }
           }
         }
+        .swiper-button-prev{
+          &::after{
+            content: "";
+          }
+          width: 10%;
+          top: 32%;
+          left: 5px;
+        }
         .swiper-button-next{
           &::after{
             content: "";
           }
           width: 10%;
           top: 32%;
-          right: unset;
-          left: 5px;
+          right: 7%;
+          transform: scaleX(-1);
         }
       }
     }
@@ -270,6 +278,9 @@
       margin-right: 15px;
       margin-left: 50px;
       .swiper-wrapper{
+        -webkit-transition-timing-function:linear!important; 
+        -o-transition-timing-function:linear!important;
+        transition-timing-function:linear!important; 
         .swiper-slide{
           a{
             img{
@@ -406,6 +417,9 @@
       margin-right: 15px;
       margin-left: 50px;
       .swiper-wrapper{
+        -webkit-transition-timing-function:linear!important; 
+        -o-transition-timing-function:linear!important;
+        transition-timing-function:linear!important; 
         .swiper-slide{
           a{
             img{
@@ -465,39 +479,40 @@
       padding-left: 50px;
       padding-bottom: 60px;
       .txt_cont{
-        padding: 65px 15px 50px 30px;
         background-image: url(../images/top/section_6/bg_img.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        span{
-          @include Hind_Siliguri(500);
-          font-size: 15px;
-          color: #fff;
-          letter-spacing: .2em;
-        }
-        h3{
-          @include Noto_Sans(500);
-          font-size: 22px;
-          line-height: 28px;
-          color: #fff;
-          margin: 10px 0 0;
+        .btn_link{
+          display: block;
+          padding: 65px 15px 50px 30px;
+          span{
+            @include Hind_Siliguri(500);
+            font-size: 15px;
+            color: #fff;
+            letter-spacing: .2em;
+          }
+          h3{
+            @include Noto_Sans(500);
+            font-size: 22px;
+            line-height: 28px;
+            color: #fff;
+            margin: 10px 0 0;
+          }
         }
       }
-      p{
+      a.sp{
+        display: block;
         background-color: #302d2b;
         padding: 30px 15px 35px 30px;
         @include Noto_Sans(400);
         font-size: 16px;
         color: #fff;
         line-height: 33.6px;
-        a{
+        img{
           display: block;
-          width: 100%;
-          text-align: right;
-          img{
-            width: 24px;
-          }
+          margin-left: auto;
+          width: 24px;
         }
       }
     }

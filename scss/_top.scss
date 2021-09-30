@@ -118,13 +118,20 @@
             }
           }
         }
+        .swiper-button-prev{
+          &::after{
+            content: "";
+          }
+          width: 7%;
+          left: 26%;
+        }
         .swiper-button-next{
           &::after{
             content: "";
           }
           width: 7%;
-          right: unset;
-          left: 26%;
+          right: 26%;
+          transform: scaleX(-1);
         }
       }
     }
@@ -239,6 +246,9 @@
       position: relative;
       margin-top: 90px;
       .swiper-wrapper{
+        -webkit-transition-timing-function:linear!important; 
+        -o-transition-timing-function:linear!important;
+        transition-timing-function:linear!important; 
         .swiper-slide{
           a{
             img{
@@ -358,6 +368,9 @@
       position: relative;
       margin-top: 90px;
       .swiper-wrapper{
+        -webkit-transition-timing-function:linear!important; 
+        -o-transition-timing-function:linear!important;
+        transition-timing-function:linear!important; 
         .swiper-slide{
           a{
             img{
@@ -416,37 +429,40 @@
       padding-left: 100px;
       padding-bottom: 180px;
       .txt_cont{
-        padding: 150px 60px 95px 95px;
         background-image: url(../images/top/section_6/bg_img.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        span{
-          @include Hind_Siliguri(500);
-          font-size: 18px;
-          color: #fff;
-          letter-spacing: .2em;
-        }
-        h3{
-          @include Noto_Sans(500);
-          font-size: 26px;
-          color: #fff;
-          margin: 25px 0 45px
-        }
-        p{
-          @include Noto_Sans(400);
-          font-size: 16px;
-          color: #fff;
-          line-height: 33.6px;
-        }
-        .btn_viewmore{
+        .btn_link{
           display: block;
-          width: 100%;
-          margin-top: 110px;
-          text-align: right;
-          @include Hind_Siliguri(500);
-          font-size: 13px;
-          color: #fff;
+          padding: 150px 60px 95px 95px;
+          span{
+            @include Hind_Siliguri(500);
+            font-size: 18px;
+            color: #fff;
+            letter-spacing: .2em;
+          }
+          h3{
+            @include Noto_Sans(500);
+            font-size: 26px;
+            color: #fff;
+            margin: 25px 0 45px
+          }
+          p{
+            @include Noto_Sans(400);
+            font-size: 16px;
+            color: #fff;
+            line-height: 33.6px;
+          }
+          .btn_viewmore{
+            display: block;
+            width: 100%;
+            margin-top: 110px;
+            text-align: right;
+            @include Hind_Siliguri(500);
+            font-size: 13px;
+            color: #fff;
+          }
         }
       }
     }
