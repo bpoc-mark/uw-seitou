@@ -431,11 +431,20 @@ footer {
   position: relative;
   z-index: 1;
   background: #302d2b;
-  padding-top: 150px;
+  padding-top: 60px;
   padding-bottom: 50px;
   padding-left: 150px;
   padding-right: 60px;
-  margin-top: -90px;
+  &::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 90px;
+    background: #302d2b;
+    position: absolute;
+    top: -90px;
+    left: 0;
+  }
   .footer_inner{
     .logo{
       margin-bottom: 30px;
@@ -450,7 +459,7 @@ footer {
       .col{
         &:first-child{
           max-width: 480px;
-          @media only screen and (max-width: 1200px) {
+          @media only screen and (max-width: 1250px) {
             width: 49%;
           }
           nav{
@@ -559,7 +568,7 @@ footer {
         }
         &:last-child{
           max-width: 500px;
-          @media only screen and (max-width: 1200px) {
+          @media only screen and (max-width: 1250px) {
             width: 49%;
           }
           .img_link{
@@ -664,7 +673,7 @@ footer {
   opacity: 0;
   position: absolute;
   left: 50px;
-  top: -50px;
+  top: -150px;
   z-index: 888;
   transition: 0.3s;
   &.active {
