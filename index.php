@@ -355,7 +355,7 @@
 			// Optional parameters
 			direction: 'horizontal',
 			loop: true,
-			speed: 2000,
+			speed: 500,
 			// autoplay: {
 			// 	delay: 3000,
 			// },
