@@ -1100,6 +1100,175 @@ img[src$=".png"], img[src$=".jpg"] {
   color: #fff;
 }
 
+/*==================================
+	JUMBO SECTION
+==================================*/
+.jumbo_sect {
+  padding-bottom: 90px;
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect {
+    padding-bottom: 45px;
+  }
+}
+
+.jumbo_sect .wrapper {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper {
+    height: 270px;
+  }
+}
+
+.jumbo_sect .wrapper .breadcrumbs {
+  width: 100%;
+  padding-left: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper .breadcrumbs {
+    padding-left: 50px;
+  }
+}
+
+.jumbo_sect .wrapper .breadcrumbs::before {
+  content: "";
+  display: block;
+  width: 380px;
+  height: 20px;
+  background-color: #efeeec;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper .breadcrumbs::before {
+    width: 191px;
+    height: 10px;
+    left: 50px;
+  }
+}
+
+.jumbo_sect .wrapper .breadcrumbs ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  padding: 80px 70px 27px 70px;
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper .breadcrumbs ul {
+    padding: 30px 25px 10px 25px;
+  }
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper .breadcrumbs ul li {
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper .breadcrumbs ul li:first-child {
+    width: 100%;
+  }
+}
+
+.jumbo_sect .wrapper .breadcrumbs ul li:first-child a {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #21201f;
+  letter-spacing: .2em;
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper .breadcrumbs ul li:first-child a {
+    font-size: 20px;
+    line-height: 0;
+  }
+}
+
+.jumbo_sect .wrapper .breadcrumbs ul li:not(:first-child)::before {
+  content: "-";
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0 7px;
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper .breadcrumbs ul li:not(:first-child)::before {
+    margin: 0 5px;
+  }
+}
+
+.jumbo_sect .wrapper .breadcrumbs ul li:not(:first-child) a {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 12px;
+  color: #21201f;
+  letter-spacing: .15em;
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper .breadcrumbs ul li:not(:first-child) a {
+    font-size: 10px;
+    line-height: 0;
+  }
+}
+
+/*==================================
+	FOOTER SECTION
+==================================*/
+.footer_breadcrumbs .wrapper {
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+
+.footer_breadcrumbs .wrapper ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer_breadcrumbs .wrapper ul li {
+  position: relative;
+  padding-left: 10px;
+}
+
+.footer_breadcrumbs .wrapper ul li a {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 10px;
+  color: #21201f;
+}
+
+.footer_breadcrumbs .wrapper ul li:not(:last-child) {
+  padding-right: 10px;
+}
+
+.footer_breadcrumbs .wrapper ul li:not(:last-child)::after {
+  content: url(../images/common/footer_breadcrumbs_arrow.svg);
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -3px;
+  width: 5px;
+}
+
 /*==========================================
   Layout
 ==========================================*/
@@ -1680,6 +1849,76 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_7 .wrapper .row .col:last-child img {
+  width: 100%;
+}
+
+/*==================================
+  Company
+==================================*/
+#Company main .jumbo_sect .wrapper {
+  background-image: url(../images/company/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Company main .sect_1 .wrapper {
+  padding-left: 150px;
+  padding-bottom: 90px;
+}
+
+#Company main .sect_1 .wrapper .row .col:first-child {
+  padding-left: 40px;
+  padding-right: 80px;
+  width: 70%;
+}
+
+#Company main .sect_1 .wrapper .row .col:first-child ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Company main .sect_1 .wrapper .row .col:first-child ul li {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #e5e3e0;
+  padding-bottom: 35px;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+#Company main .sect_1 .wrapper .row .col:first-child ul li:hover img {
+  right: 0;
+}
+
+#Company main .sect_1 .wrapper .row .col:first-child ul li a {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #21201f;
+}
+
+#Company main .sect_1 .wrapper .row .col:first-child ul li a span {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 11px;
+  color: #838280;
+}
+
+#Company main .sect_1 .wrapper .row .col:first-child ul li img {
+  width: 29px;
+  transition: .3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+}
+
+#Company main .sect_1 .wrapper .row .col:last-child {
+  width: 30%;
+}
+
+#Company main .sect_1 .wrapper .row .col:last-child img {
   width: 100%;
 }
 

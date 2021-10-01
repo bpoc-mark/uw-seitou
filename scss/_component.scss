@@ -283,3 +283,137 @@ img {
     }
   }
 }
+
+
+/*==================================
+	JUMBO SECTION
+==================================*/
+.jumbo_sect{
+  padding-bottom: 90px;
+  @include sp{
+    padding-bottom: 45px;
+  }
+  .wrapper{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    @include sp{
+      height: 270px;
+    }
+    .breadcrumbs{
+      width: 100%;
+      padding-left: 100px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      @include sp{
+        padding-left: 50px;
+      }
+      &::before{
+        content: "";
+        display: block;
+        width: 380px;
+        height: 20px;
+        background-color: #efeeec;
+        position: absolute;
+        top: 0;
+        left: 100px;
+        @include sp{
+          width: 191px;
+          height: 10px;
+          left: 50px;
+        }
+      }
+      ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #fff;
+        padding: 80px 70px 27px 70px;
+        @include sp{
+          padding: 30px 25px 10px 25px;
+        }
+        li{
+          @include sp{
+            line-height: 1.2;
+          }
+          &:first-child{
+            @include sp{
+              width: 100%;
+            }
+            a{
+              @include Hind_Siliguri(500);
+              font-size: 30px;
+              color: #21201f;
+              letter-spacing: .2em;
+              @include sp{
+                font-size: 20px;
+                line-height: 0;
+              }
+            }
+          }
+          &:not(:first-child){
+            &::before{
+              content: "-";
+              @include Noto_Sans(500);
+              font-size: 12px;
+              margin: 0 7px;
+              @include sp{
+                margin: 0 5px;
+              }
+            }
+          }
+          &:not(:first-child){
+            a{
+              @include Noto_Sans(500);
+              font-size: 12px;
+              color: #21201f;
+              letter-spacing: .15em;
+              @include sp{
+                font-size: 10px;
+                line-height: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*==================================
+	FOOTER SECTION
+==================================*/
+.footer_breadcrumbs{
+  .wrapper{
+    padding-right: 60px;
+    padding-bottom: 30px;
+    ul{
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      li{
+        position: relative;
+        padding-left: 10px;
+        a{
+          @include Noto_Sans(500);
+          font-size: 10px;
+          color: #21201f;
+        }
+        &:not(:last-child){
+          padding-right: 10px;
+          &::after{
+            content: url(../images/common/footer_breadcrumbs_arrow.svg);
+            display: block;
+            position: absolute;
+            top: 0;
+            right: -3px;
+            width: 5px;
+          }
+        }
+      }
+    }
+  }
+}
