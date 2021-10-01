@@ -2023,7 +2023,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
-  Greetings
+  History
 ==================================*/
 #History main .jumbo_sect .wrapper {
   background-image: url(../images/company/bg_jumbo.png);
@@ -2142,6 +2142,231 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #History main .sect_1 .wrapper .history_list table tbody tr td:last-child {
   padding-left: 25px;
+}
+
+/*==================================
+  Overview
+==================================*/
+#Overview main .jumbo_sect .wrapper {
+  background-image: url(../images/company/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Overview main .sect_1 .wrapper {
+  padding-left: 100px;
+  padding-bottom: 125px;
+}
+
+#Overview main .sect_1 .wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 65px;
+  padding-left: 25px;
+}
+
+#Overview main .sect_1 .wrapper ul li {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  padding: 0 25px;
+}
+
+#Overview main .sect_1 .wrapper ul li:not(:last-child) {
+  border-right: 1px solid #21201f;
+}
+
+#Overview main .sect_1 .wrapper ul li a {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 13px;
+  color: #21201f;
+  letter-spacing: .15em;
+}
+
+#Overview main .sect_1 .wrapper ul li a.here {
+  color: #c2c0be;
+}
+
+#Overview main .sect_1 .wrapper .overview_info {
+  padding-right: 105px;
+  padding-left: 95px;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr {
+  border-bottom: 1px solid #e5e3e0;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr:first-child {
+  border-top: 1px solid #e5e3e0;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td {
+  padding: 30px 0;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 30px;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:first-child {
+  width: 300px;
+  text-align: left;
+  padding-left: 28px;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:last-child .col3 {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:last-child .col3 li {
+  padding: 0;
+  border-right: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:last-child .col3 li:nth-of-type(1) {
+  width: 195px;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:last-child .col3 li:nth-of-type(2) {
+  width: 150px;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:last-child .col3 li:nth-of-type(3) {
+  width: 150px;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:last-child .col3 li p {
+  display: block;
+  width: 100%;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 32px;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:last-child .col2 {
+  max-width: 530px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:last-child .col2 li {
+  padding: 0;
+  border-right: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:last-child .col2 li:nth-of-type(1) {
+  width: 220px;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:last-child .col2 li:nth-of-type(2) {
+  width: 280px;
+}
+
+#Overview main .sect_1 .wrapper .overview_info table tbody tr td:last-child .col2 li p {
+  display: block;
+  width: 100%;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 32px;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont {
+  padding-left: 50px;
+  padding-top: 140px;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont h3 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #21201f;
+  letter-spacing: .2em;
+  margin-bottom: 75px;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont .shop_itm:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont .shop_itm:not(:nth-of-type(1)) .row {
+  align-items: flex-end;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont .shop_itm .row .col:first-child {
+  width: 44%;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont .shop_itm .row .col:first-child h4 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #21201f;
+  letter-spacing: .1em;
+  margin-bottom: 15px;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont .shop_itm .row .col:first-child h4:nth-of-type(2) {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #e5e3e0;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont .shop_itm .row .col:first-child p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 32px;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont .shop_itm .row .col:first-child p a {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont .shop_itm .row .col:first-child img {
+  margin-top: 45px;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont .shop_itm .row .col:last-child {
+  width: 56%;
+}
+
+#Overview main .sect_1 .wrapper .shop_cont .shop_itm .row .col:last-child iframe {
+  min-height: 420px;
+  filter: grayscale(100%);
 }
 
 /*==================================
