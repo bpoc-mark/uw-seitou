@@ -2006,6 +2006,139 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Greetings
+==================================*/
+#History main .jumbo_sect .wrapper {
+  background-image: url(../images/company/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#History main .sect_1 .wrapper {
+  padding-left: 50px;
+  padding-right: 15px;
+  padding-bottom: 85px;
+}
+
+#History main .sect_1 .wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+  padding-left: 5px;
+}
+
+#History main .sect_1 .wrapper ul li {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+#History main .sect_1 .wrapper ul li:not(:last-child) {
+  border-right: 1px solid #21201f;
+}
+
+#History main .sect_1 .wrapper ul li:first-child {
+  padding: 0 15px 0 0;
+}
+
+#History main .sect_1 .wrapper ul li:last-child {
+  padding: 0 0 0 15px;
+}
+
+#History main .sect_1 .wrapper ul li a {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 12px;
+  color: #21201f;
+  letter-spacing: .15em;
+}
+
+#History main .sect_1 .wrapper ul li a.here {
+  color: #c2c0be;
+}
+
+#History main .sect_1 .wrapper .row {
+  padding-left: 5px;
+}
+
+#History main .sect_1 .wrapper .row .col:first-child {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+#History main .sect_1 .wrapper .row .col:last-child {
+  width: 100%;
+}
+
+#History main .sect_1 .wrapper .row .col h4 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #21201f;
+  letter-spacing: .2em;
+}
+
+#History main .sect_1 .wrapper .row .col h4 span {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 10px;
+  color: #838280;
+  letter-spacing: .05em;
+}
+
+#History main .sect_1 .wrapper .row .col p {
+  margin-top: 30px;
+  padding-left: 25px;
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #21201f;
+}
+
+#History main .sect_1 .wrapper .history_list {
+  padding-left: 5px;
+  margin-top: 60px;
+}
+
+#History main .sect_1 .wrapper .history_list table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#History main .sect_1 .wrapper .history_list table tbody tr {
+  border-bottom: 1px solid #e5e3e0;
+}
+
+#History main .sect_1 .wrapper .history_list table tbody tr:first-child {
+  border-top: 1px solid #e5e3e0;
+}
+
+#History main .sect_1 .wrapper .history_list table tbody tr td {
+  padding: 17px 0;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 24px;
+}
+
+#History main .sect_1 .wrapper .history_list table tbody tr td:first-child {
+  width: 65px;
+  text-align: left;
+}
+
+#History main .sect_1 .wrapper .history_list table tbody tr td:last-child {
+  padding-left: 10px;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {

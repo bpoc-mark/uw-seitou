@@ -2023,6 +2023,128 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Greetings
+==================================*/
+#History main .jumbo_sect .wrapper {
+  background-image: url(../images/company/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#History main .sect_1 .wrapper {
+  padding-left: 100px;
+  padding-right: 60px;
+  padding-bottom: 160px;
+}
+
+#History main .sect_1 .wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 80px;
+  padding-left: 25px;
+}
+
+#History main .sect_1 .wrapper ul li {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  padding: 0 25px;
+}
+
+#History main .sect_1 .wrapper ul li:not(:last-child) {
+  border-right: 1px solid #21201f;
+}
+
+#History main .sect_1 .wrapper ul li a {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 13px;
+  color: #21201f;
+  letter-spacing: .15em;
+}
+
+#History main .sect_1 .wrapper ul li a.here {
+  color: #c2c0be;
+}
+
+#History main .sect_1 .wrapper .row {
+  padding-left: 50px;
+}
+
+#History main .sect_1 .wrapper .row .col:first-child {
+  width: 55%;
+  padding-right: 50px;
+}
+
+#History main .sect_1 .wrapper .row .col:last-child {
+  width: 45%;
+}
+
+#History main .sect_1 .wrapper .row .col h4 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #21201f;
+  letter-spacing: .2em;
+}
+
+#History main .sect_1 .wrapper .row .col h4 span {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 13px;
+  color: #838280;
+  letter-spacing: .05em;
+}
+
+#History main .sect_1 .wrapper .row .col p {
+  margin-top: 35px;
+  padding-left: 25px;
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 18px;
+  color: #21201f;
+}
+
+#History main .sect_1 .wrapper .history_list {
+  padding-right: 45px;
+  padding-left: 95px;
+  margin-top: 80px;
+}
+
+#History main .sect_1 .wrapper .history_list table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#History main .sect_1 .wrapper .history_list table tbody tr {
+  border-bottom: 1px solid #e5e3e0;
+}
+
+#History main .sect_1 .wrapper .history_list table tbody tr:first-child {
+  border-top: 1px solid #e5e3e0;
+}
+
+#History main .sect_1 .wrapper .history_list table tbody tr td {
+  padding: 28px 0;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+}
+
+#History main .sect_1 .wrapper .history_list table tbody tr td:first-child {
+  width: 100px;
+  text-align: center;
+}
+
+#History main .sect_1 .wrapper .history_list table tbody tr td:last-child {
+  padding-left: 25px;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
