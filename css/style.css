@@ -2789,6 +2789,455 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Service
+==================================*/
+#Service main .jumbo_sect .wrapper {
+  background-image: url(../images/service/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Service main .sect_1 .wrapper {
+  padding-left: 150px;
+  padding-right: 60px;
+  padding-bottom: 140px;
+}
+
+#Service main .sect_1 .wrapper .row .col {
+  width: 50%;
+}
+
+#Service main .sect_1 .wrapper .row .col:first-child {
+  padding-right: 20px;
+}
+
+#Service main .sect_1 .wrapper .row .col:first-child h3 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 26px;
+  color: #21201f;
+  line-height: 52px;
+  text-indent: -105px;
+  margin-left: 105px;
+  margin-top: 35px;
+}
+
+#Service main .sect_1 .wrapper .row .col:last-child p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 49.6px;
+}
+
+#Service main .sect_2 .wrapper {
+  background-color: #efeeec;
+  padding-top: 125px;
+  padding-left: 150px;
+  padding-right: 60px;
+  padding-bottom: 125px;
+}
+
+#Service main .sect_2 .wrapper .head_cont {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Service main .sect_2 .wrapper .head_cont h3 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #21201f;
+  letter-spacing: .2em;
+}
+
+#Service main .sect_2 .wrapper .head_cont a {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #21201f;
+  margin-top: 30px;
+  letter-spacing: .2em;
+}
+
+#Service main .sect_2 .wrapper .row {
+  justify-content: flex-start;
+}
+
+#Service main .sect_2 .wrapper .row .col {
+  width: 30.42%;
+}
+
+#Service main .sect_2 .wrapper .row .col:nth-child(3n+2) {
+  margin-left: 4.37%;
+}
+
+#Service main .sect_2 .wrapper .row .col:nth-child(3n+3) {
+  margin-left: 4.37%;
+}
+
+#Service main .sect_2 .wrapper .row .col:nth-child(n+4) {
+  margin-top: 70px;
+}
+
+#Service main .sect_2 .wrapper .row .col a img {
+  width: 100%;
+}
+
+#Service main .sect_2 .wrapper .row .col a .post_data .post_date_cat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-top: 28px;
+  padding-bottom: 5px;
+}
+
+#Service main .sect_2 .wrapper .row .col a .post_data .post_date_cat span {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  color: #21201f;
+}
+
+#Service main .sect_2 .wrapper .row .col a .post_data .post_date_cat span:nth-child(1) {
+  font-size: 16px;
+}
+
+#Service main .sect_2 .wrapper .row .col a .post_data .post_date_cat span:nth-child(2) {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+#Service main .sect_2 .wrapper .row .col a .post_data .post_title {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  color: #21201f;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+#Service main .sect_3 .wrapper {
+  padding-left: 150px;
+  padding-right: 60px;
+  padding-top: 150px;
+  padding-bottom: 135px;
+}
+
+#Service main .sect_3 .wrapper h3 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #21201f;
+  letter-spacing: .2em;
+  margin-bottom: 130px;
+}
+
+#Service main .sect_3 .wrapper .point:not(:last-child) {
+  margin-bottom: 170px;
+}
+
+#Service main .sect_3 .wrapper .point:nth-of-type(2) .row {
+  flex-direction: row-reverse;
+}
+
+#Service main .sect_3 .wrapper .point:nth-of-type(2) .row::before {
+  left: unset;
+  right: 0;
+}
+
+#Service main .sect_3 .wrapper .point:nth-of-type(2) .row .col:first-child {
+  justify-content: flex-end;
+  padding-left: unset;
+  padding-right: 45px;
+}
+
+#Service main .sect_3 .wrapper .point .row {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#Service main .sect_3 .wrapper .point .row::before {
+  content: "";
+  display: block;
+  background-color: #efeeec;
+  width: 52%;
+  height: 95%;
+  position: absolute;
+  top: -80px;
+  left: 0;
+}
+
+#Service main .sect_3 .wrapper .point .row .col:first-child {
+  width: 30%;
+  padding-left: 45px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#Service main .sect_3 .wrapper .point .row .col:first-child p {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #21201f;
+}
+
+#Service main .sect_3 .wrapper .point .row .col:last-child {
+  width: 70%;
+}
+
+#Service main .sect_3 .wrapper .point .row .col:last-child ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Service main .sect_3 .wrapper .point .row .col:last-child ul li {
+  width: 49.9%;
+}
+
+#Service main .sect_3 .wrapper .point .row .col:last-child ul li img {
+  width: 100%;
+}
+
+#Service main .sect_3 .wrapper .point .info {
+  padding: 0 45px;
+}
+
+#Service main .sect_3 .wrapper .point .info h4 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 20px;
+  color: #21201f;
+  margin-bottom: 30px;
+}
+
+#Service main .sect_3 .wrapper .point .info p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 35px;
+  color: #21201f;
+}
+
+#Service main .sect_4 .wrapper {
+  padding-left: 150px;
+  padding-right: 60px;
+  padding-bottom: 115px;
+}
+
+#Service main .sect_4 .wrapper h3 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #21201f;
+  letter-spacing: .2em;
+  margin-bottom: 70px;
+}
+
+#Service main .sect_4 .wrapper .row .col {
+  width: 50%;
+}
+
+#Service main .sect_4 .wrapper .row .col:first-child {
+  margin-top: 35px;
+  padding-right: 20px;
+}
+
+#Service main .sect_4 .wrapper .row .col:first-child h4 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 26px;
+  color: #21201f;
+  line-height: 52px;
+  text-indent: -115px;
+  margin-left: 115px;
+  padding-left: 35px;
+}
+
+#Service main .sect_4 .wrapper .row .col:first-child p {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 26px;
+  color: #21201f;
+  line-height: 52px;
+  padding-left: 120px;
+}
+
+#Service main .sect_4 .wrapper .row .col:last-child p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 50px;
+}
+
+#Service main .sect_5 .wrapper {
+  padding-left: 150px;
+  padding-bottom: 130px;
+}
+
+#Service main .sect_5 .wrapper h3 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #21201f;
+  letter-spacing: .2em;
+  margin-bottom: 75px;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row {
+  align-items: center;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row .col:first-child {
+  width: 62%;
+  padding-right: 80px;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row .col:first-child span {
+  display: block;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #21201f;
+  margin-bottom: 25px;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row .col:first-child h5 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 18px;
+  color: #21201f;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row .col:first-child h4 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 26px;
+  color: #21201f;
+  line-height: 46px;
+  margin-bottom: 25px;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row .col:first-child p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 35.2px;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row .col:first-child .list {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e3e0;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row .col:first-child .list p {
+  font-size: 13px;
+  text-indent: -34px;
+  margin-left: 34px;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row .col:first-child .list p:first-child {
+  margin-bottom: 10px;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row .col:last-child {
+  width: 38%;
+}
+
+#Service main .sect_5 .wrapper .point_cont .row .col:last-child img {
+  width: 100%;
+}
+
+#Service main .sect_6 .wrapper {
+  padding-left: 150px;
+  padding-right: 60px;
+  padding-bottom: 140px;
+}
+
+#Service main .sect_6 .wrapper h3 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #21201f;
+  letter-spacing: .2em;
+  margin-bottom: 50px;
+}
+
+#Service main .sect_6 .wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Service main .sect_6 .wrapper ul li {
+  width: 49%;
+}
+
+#Service main .sect_6 .wrapper ul li:first-child a {
+  font-size: 18px;
+}
+
+#Service main .sect_6 .wrapper ul li a {
+  display: block;
+  position: relative;
+  width: 100%;
+  border: 1px solid #dedcd9;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #21201f;
+  letter-spacing: .2em;
+  transition: .3s ease-in-out;
+}
+
+#Service main .sect_6 .wrapper ul li a:hover {
+  color: #fff;
+}
+
+#Service main .sect_6 .wrapper ul li a:hover svg polyline, #Service main .sect_6 .wrapper ul li a:hover svg path, #Service main .sect_6 .wrapper ul li a:hover svg line {
+  stroke: #fff;
+  transition: .3s ease-in-out;
+  transition-delay: .1s;
+}
+
+#Service main .sect_6 .wrapper ul li a:hover::before {
+  width: 100%;
+}
+
+#Service main .sect_6 .wrapper ul li a::before {
+  content: "";
+  background-color: #302d2b;
+  transition: .3s ease-in-out;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#Service main .sect_6 .wrapper ul li a svg {
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  right: 60px;
+  transform: translate(0, -50%);
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {

@@ -1,0 +1,403 @@
+/*==================================
+  Service
+==================================*/
+#Service main {
+  .jumbo_sect{
+    .wrapper{
+      background-image: url(../images/service/bg_jumbo.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+  .sect_1{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 140px;
+      .row{
+        .col{
+          width: 50%;
+          &:first-child{
+            padding-right: 20px;
+            h3{
+              @include Noto_Sans(500);
+              font-size: 26px;
+              color: #21201f;
+              line-height: 52px;
+              text-indent: -105px;
+              margin-left: 105px;
+              margin-top: 35px;
+            }
+          }
+          &:last-child{
+            p{
+              @include Noto_Sans(300);
+              font-size: 16px;
+              color: #21201f;
+              line-height: 49.6px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_2{
+    .wrapper{
+      background-color: #efeeec;
+      padding-top: 125px;
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 125px;
+      .head_cont{
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3{
+          @include Hind_Siliguri(500);
+          font-size: 22px;
+          color: #21201f;
+          letter-spacing: .2em;
+        }
+        a{
+          @include Hind_Siliguri(500);
+          font-size: 13px;
+          color: #21201f;
+          margin-top: 30px;
+          letter-spacing: .2em;
+        }
+      }
+      .row{
+        justify-content: flex-start;
+        .col{
+          width: 30.42%;
+          &:nth-child(3n+2){
+            margin-left: 4.37%;
+          }
+          &:nth-child(3n+3){
+            margin-left: 4.37%;
+          }
+          &:nth-child(n+4){
+            margin-top: 70px;
+          }
+          a{
+            img{
+              width: 100%;
+            }
+            .post_data{
+              .post_date_cat{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-end;
+                padding-top: 28px;
+                padding-bottom: 5px;
+                span{
+                  @include Noto_Sans(500);
+                  color: #21201f;
+  
+                  &:nth-child(1){
+                    font-size: 16px;
+                  }
+                  &:nth-child(2){
+                    font-size: 14px;
+                    margin-left: 10px;
+                  }
+                }
+              }
+              .post_title{
+                @include Noto_Sans(300);
+                color: #21201f;
+                font-size: 16px;
+                line-height: 27px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_3{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-top: 150px;
+      padding-bottom: 135px;
+      h3{
+        @include Hind_Siliguri(500);
+        font-size: 22px;
+        color: #21201f;
+        letter-spacing: .2em;
+        margin-bottom: 130px;
+      }
+      .point{
+        &:not(:last-child){
+          margin-bottom: 170px;
+        }
+        &:nth-of-type(2){
+          .row{
+            flex-direction: row-reverse;
+            &::before{
+              left: unset;
+              right: 0;
+            }
+            .col{
+              &:first-child{
+                justify-content: flex-end;
+                padding-left: unset;
+                padding-right: 45px;
+              }
+            }
+          }
+        }
+        .row{
+          position: relative;
+          margin-bottom: 40px;
+          &::before{
+            content: "";
+            display: block;
+            background-color: #efeeec;
+            width: 52%;
+            height: 95%;
+            position: absolute;
+            top: -80px;
+            left: 0;
+          }
+          .col{
+            &:first-child{
+              width: 30%;
+              padding-left: 45px;
+              padding-bottom: 80px;
+              display: flex;
+              align-items: flex-end;
+              p{
+                @include Hind_Siliguri(500);
+                font-size: 24px;
+                color: #21201f;
+              }
+            } 
+            &:last-child{
+              width: 70%;
+              ul{
+                display: flex;
+                justify-content: space-between;
+                li{
+                  width: 49.9%;
+                  img{
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .info{
+          padding: 0 45px;
+          h4{
+            @include Noto_Sans(500);
+            font-size: 20px;
+            color: #21201f;
+            margin-bottom: 30px;
+          }
+          p{
+            @include Noto_Sans(300);
+            font-size: 16px;
+            line-height: 35px;
+            color: #21201f;
+          }
+        }
+      }
+    }
+  }
+  .sect_4{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 115px;
+      h3{
+        @include Hind_Siliguri(500);
+        font-size: 22px;
+        color: #21201f;
+        letter-spacing: .2em;
+        margin-bottom: 70px;
+      }
+      .row{
+        .col{
+          width: 50%;
+          &:first-child{
+            margin-top: 35px;
+            padding-right: 20px;
+            h4{
+              @include Noto_Sans(500);
+              font-size: 26px;
+              color: #21201f;
+              line-height: 52px;
+              text-indent: -115px;
+              margin-left: 115px;
+              padding-left: 35px
+            }
+            p{
+              @include Noto_Sans(500);
+              font-size: 26px;
+              color: #21201f;
+              line-height: 52px;
+              padding-left: 120px;
+            }
+          }
+          &:last-child{
+            p{
+              @include Noto_Sans(300);
+              font-size: 16px;
+              color: #21201f;
+              line-height: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_5{
+    .wrapper{
+      padding-left: 150px;
+      padding-bottom: 130px;
+      h3{
+        @include Hind_Siliguri(500);
+        font-size: 22px;
+        color: #21201f;
+        letter-spacing: .2em;
+        margin-bottom: 75px;
+      }
+      .point_cont{
+        .row{
+          align-items: center;
+          &:not(:last-child){
+            margin-bottom: 100px;
+          }
+          .col{
+            &:first-child{
+              width: 62%;
+              padding-right: 80px;
+              span{
+                display: block;
+                @include Hind_Siliguri(500);
+                font-size: 24px;
+                color: #21201f;
+                margin-bottom: 25px;
+              }
+              h5{
+                @include Noto_Sans(500);
+                font-size: 18px;
+                color: #21201f;
+                line-height: 30px;
+                margin-bottom: 25px;
+              }
+              h4{
+                @include Noto_Sans(500);
+                font-size: 26px;
+                color: #21201f;
+                line-height: 46px;
+                margin-bottom: 25px;
+              }
+              p{
+                @include Noto_Sans(300);
+                font-size: 16px;
+                color: #21201f;
+                line-height: 35.2px;
+              }
+              .list{
+                margin-top: 20px;
+                padding-top: 20px;
+                border-top: 1px solid #e5e3e0;
+                p{
+                  font-size: 13px;
+                  text-indent: -34px;
+                  margin-left: 34px;
+                  &:first-child{
+                    margin-bottom: 10px;
+                  }
+                }
+              }
+            }
+            &:last-child{
+              width: 38%;
+              img{
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_6{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 140px;
+      h3{
+        @include Hind_Siliguri(500);
+        font-size: 22px;
+        color: #21201f;
+        letter-spacing: .2em;
+        margin-bottom: 50px;
+      }
+      ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+          width: 49%;
+          &:first-child{
+            a{
+              font-size: 18px;
+            }
+          }
+          a{
+            display: block;
+            position: relative;
+            width: 100%;
+            border: 1px solid #dedcd9;
+            padding: 40px 60px;
+            box-sizing: border-box;
+            @include Hind_Siliguri(500);
+            font-size: 20px;
+            color: #21201f;
+            letter-spacing: .2em;
+            transition: .3s ease-in-out;
+            &:hover{
+              svg{
+                polyline, path, line{
+                  stroke:#fff;
+                  transition: .3s ease-in-out;
+                  transition-delay: .1s;
+                }
+              }
+              color: #fff;
+              &::before{
+                width: 100%;
+              }
+            }
+            &::before{
+              content: "";
+              background-color: #302d2b;
+              transition: .3s ease-in-out;
+              width: 0;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: -1;
+            }
+            svg{
+              width: 20px;
+              position: absolute;
+              top: 50%;
+              right: 60px;
+              transform: translate(0, -50%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
