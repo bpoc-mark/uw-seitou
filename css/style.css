@@ -2646,6 +2646,149 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Coop
+==================================*/
+#Coop main .jumbo_sect .wrapper {
+  background-image: url(../images/company/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Coop main .sect_1 .wrapper {
+  padding-left: 150px;
+  padding-bottom: 200px;
+}
+
+#Coop main .sect_1 .wrapper .info_cont .info_head {
+  width: 55%;
+}
+
+#Coop main .sect_1 .wrapper .info_cont .info_head h3 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 26px;
+  color: #21201f;
+  margin-bottom: 35px;
+}
+
+#Coop main .sect_1 .wrapper .info_cont .info_head p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 35px;
+  margin-bottom: 35px;
+}
+
+#Coop main .sect_1 .wrapper .info_cont .img_cont {
+  width: 38%;
+  max-width: 485px;
+  float: right;
+  margin-top: -130px;
+}
+
+#Coop main .sect_1 .wrapper .info_cont .img_cont img {
+  width: 100%;
+}
+
+#Coop main .sect_1 .wrapper .info_cont .info_item {
+  width: 55%;
+  padding: 38px 0;
+  border-top: 1px solid #e5e3e0;
+}
+
+#Coop main .sect_1 .wrapper .info_cont .info_item h4 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #21201f;
+  text-indent: -10px;
+  margin-bottom: 25px;
+}
+
+#Coop main .sect_1 .wrapper .info_cont .info_item p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  padding-left: 15px;
+  padding-right: 18px;
+}
+
+#Coop main .sect_1 .wrapper .row {
+  padding-right: 60px;
+  justify-content: space-between;
+}
+
+#Coop main .sect_1 .wrapper .row .col {
+  width: 33.2%;
+  padding: 45px 35px;
+  background-color: #efeeec;
+}
+
+#Coop main .sect_1 .wrapper .row .col h4 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #21201f;
+  margin-bottom: 20px;
+}
+
+#Coop main .sect_1 .wrapper .row .col p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 32px;
+}
+
+#Coop main .sect_1 .wrapper .info_btm {
+  padding-right: 60px;
+  margin-top: 40px;
+}
+
+#Coop main .sect_1 .wrapper .info_btm h4 {
+  padding-top: 40px;
+  border-top: 1px solid #e5e3e0;
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #21201f;
+  margin-bottom: 20px;
+  text-indent: -10px;
+}
+
+#Coop main .sect_1 .wrapper .info_btm p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 35.2px;
+  color: #21201f;
+  padding-left: 15px;
+  margin-bottom: 40px;
+}
+
+#Coop main .sect_1 .wrapper .info_btm ul {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 13px;
+}
+
+#Coop main .sect_1 .wrapper .info_btm ul li:first-child {
+  margin-right: 30px;
+}
+
+#Coop main .sect_1 .wrapper .info_btm ul li a:hover img {
+  opacity: .7;
+}
+
+#Coop main .sect_1 .wrapper .info_btm ul li a img {
+  transition: .3s ease;
+  width: 319px;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
