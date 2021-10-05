@@ -1,0 +1,243 @@
+/*==================================
+  Business
+==================================*/
+#Business main {
+  .jumbo_sect{
+    .wrapper{
+      background-image: url(../images/company/bg_jumbo.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+  .sect_1{
+    .wrapper{
+      padding-left: 50px;
+      padding-right: 15px;
+      padding-bottom: 80px;
+      ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+        padding-left: 5px;
+        li{
+          display: flex;
+          align-items: center;
+          line-height: 1;
+          padding: 0 15px;
+          margin-bottom: 10px;
+          &:not(:last-child){
+            border-right: 1px solid #21201f;
+          }
+          &:first-child{
+            padding: 0 15px 0 0;
+          }
+          &:last-child{
+            padding: 0 0 0 15px;
+          }
+          a{
+            @include Noto_Sans(500);
+            font-size: 12px;
+            color: #21201f;
+            letter-spacing: .15em;
+            &.here{
+              color: #c2c0be;
+            }
+          }
+        }
+      }
+      .bs_desc{
+        @include Noto_Sans(300);
+        font-size: 16px;
+        color: #21201f;
+        line-height: 32px;
+        padding-left: 5px;
+        margin-bottom: 50px;
+      }
+      .item_cont{
+        padding-left: 5px;
+        .item{
+          &:not(:first-child){
+            margin-top: 60px;
+
+            .desc{
+              border-bottom: none;
+              padding-bottom: 0;
+              margin-bottom: 25px;
+            }
+            .row{
+              margin-bottom: 20px;
+              justify-content: space-between !important;
+              .col{
+                padding-right: 0 !important;
+                width: 49.8% !important;
+                margin-bottom: .2% !important;
+                img{
+                  width: 100%
+                }
+              }
+            }
+          }
+          &:last-child{
+            .desc{
+              border-bottom: 1px solid #e5e3e0;
+              padding-bottom: 30px;
+              margin-bottom: 30px;
+            }
+            .row{
+              &.info_list{
+                align-items: flex-start;
+                .col{
+                  &:first-child{
+                    width: 100% !important;
+                    p{
+                      @include Noto_Sans(500);
+                      font-size: 16px;
+                      color: #21201f;
+                      margin-bottom: 5px;
+                    }
+                  }
+                  &:last-child{
+                    width: 100% !important;
+                    p{
+                      @include Noto_Sans(300);
+                      font-size: 16px;
+                      color: #21201f;
+                      line-height: 25px;
+                      margin-bottom: 10px;
+                      &:not(:last-child){
+                        text-indent: -95px;
+                        margin-left: 95px;
+                      }
+                      &:last-child{
+                        text-indent: -125px;
+                        margin-left: 125px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .num{
+            @include Hind_Siliguri(500);
+            font-size: 20px;
+            color: #21201f;
+          }
+          h3{
+            @include Noto_Sans(600);
+            font-size: 20px;
+            color: #21201f;
+            line-height: 30px;
+            margin: 25px 0 25px;
+            span{
+              @include Noto_Sans(500);
+              font-size: 16px;
+              color: #21201f;
+              display: block;
+              text-indent: -8px;
+            }
+          }
+          .desc{
+            @include Noto_Sans(300);
+            font-size: 16px;
+            color: #21201f;
+            line-height: 25px;
+            border-bottom: 1px solid #e5e3e0;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+          }
+          .btn_link{
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #dedcd9;
+            position: relative;
+            @include Noto_Sans(500);
+            font-size: 16px;
+            color: #21201f;
+            padding: 20px;
+
+            img{
+              width: 24px;
+              position: absolute;
+              top: 50%;
+              right: 15px;
+              transform: translate(0, -50%);
+            }
+          }
+          .row{
+            align-items: center;
+            .col{
+              &:nth-of-type(1){
+                width: 100%;
+                
+                .row{
+                  align-items: flex-start;
+                  .col{
+                    &:first-child{
+                      width: 100%;
+                      padding-right: 0;
+                      margin-bottom: 10px;
+                      p{
+                        @include Noto_Sans(500);
+                        font-size: 16px;
+                        color: #21201f;
+                      }
+                    }
+                    &:last-child{
+                      width: 100%;
+                      margin-bottom: 0;
+                      .sp{
+                        ul{
+                          margin-bottom: 20px;
+                          padding-left: 0;
+                          display: flex;
+                          flex-wrap: wrap;
+                          align-items: flex-start;
+                          justify-content: space-between;
+                          li{
+                            padding: 0;
+                            border: none;
+                            width: 50%;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: flex-start;
+                            margin-bottom: 10px;
+                            p{
+                              width: 100%;
+                              @include Noto_Sans(300);
+                              font-size: 16px;
+                              color: #21201f;
+                              line-height: 25px;
+                              text-indent: -20px;
+                              margin-left: 20px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              &:nth-of-type(2){
+                width: 100%;
+                margin-bottom: 20px;
+                picture{
+                  img{
+                    width: 75%;
+                  }
+                }
+              }
+              &:nth-of-type(3){
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
