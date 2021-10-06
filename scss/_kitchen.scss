@@ -1,0 +1,181 @@
+/*==================================
+  Kitchen
+==================================*/
+#Kitchen main {
+  .jumbo_sect{
+    .wrapper{
+      background-image: url(../images/kitchen/bg_jumbo.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+  .sect_1{
+    .wrapper{
+      padding-left: 100px;
+      padding-right: 60px;
+      ul{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 80px;
+        padding-left: 25px;
+        li{
+          display: flex;
+          align-items: center;
+          line-height: 1;
+          padding: 0 25px;
+          &:not(:last-child){
+            border-right: 1px solid #21201f;
+          }
+          a{
+            @include Noto_Sans(500);
+            font-size: 13px;
+            color: #21201f;
+            letter-spacing: .15em;
+            &.here{
+              color: #c2c0be;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_2{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 150px;
+      .row{
+        align-items: flex-end;
+        .col{
+          &:first-child{
+            width: 65%;
+            padding-right: 20px;
+            h3{
+              @include Noto_Sans(500);
+              font-size: 26px;
+              color: #21201f;
+              letter-spacing: .1em;
+              margin-bottom: 10px;
+              line-height: 45px;
+            }
+            span{
+              display: block;
+              @include Hind_Siliguri(500);
+              font-size: 12px;
+              letter-spacing: .2em;
+              color: #21201f;
+              margin-bottom: 50px;
+            }
+            h4{
+              @include Noto_Sans(500);
+              font-size: 20px;
+              color: #21201f;
+              letter-spacing: .1em;
+              line-height: 40px;
+              margin-bottom: 40px;
+            }
+            p{
+              @include Noto_Sans(300);
+              font-size: 16px;
+              color: #21201f;
+              line-height: 49.6px;
+            }
+          }
+          &:last-child{
+            width: 35%;
+            text-align: right;
+            img{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_3{
+    .wrapper{
+      padding-right: 60px;
+      padding-left: 150px;
+      padding-bottom: 120px;
+      .row{
+        justify-content: space-between;
+        &:first-child{
+          margin-bottom: 50px;
+        }
+        .col{
+          &:first-child{
+            width: 25%;
+          }
+          &:last-child{
+            width: 75%;
+            padding-left: 90px;
+          }
+          img{
+            width: 100%;
+          }
+          h4{
+            @include Noto_Sans(500);
+            font-size: 20px;
+            color: #21201f;
+            line-height: 30px;
+            padding: 0 0 20px
+          }
+          p{
+            @include Noto_Sans(300);
+            font-size: 16px;
+            color: #21201f;
+            line-height: 35.2px;
+          }
+        }
+      }
+    }
+  }
+  .sect_4{
+    .wrapper{
+      padding-left: 150px;
+      padding-bottom: 125px;
+      h3{
+        @include Hind_Siliguri(500);
+        font-size: 22px;
+        color: #21201f;
+        letter-spacing: .2em;
+        margin-bottom: 15px;
+      }
+      .row{
+        align-items: flex-end;
+        .col{
+          &:first-child{
+            width: 440px;
+            padding-left: 30px;
+            h4{
+              @include Noto_Sans(500);
+              font-size: 16px;
+              color: #21201f;
+              margin-bottom: 20px;
+            }
+            p{
+              @include Noto_Sans(300);
+              font-size: 16px;
+              color: #21201f;
+              line-height: 32px;
+              margin-bottom: 40px;
+              a{
+                @include Noto_Sans(300);
+                font-size: 16px;
+                color: #21201f;
+              }
+            }
+          }
+          &:last-child{
+            width: calc(100% - 440px);
+            iframe{
+              height: 420px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
