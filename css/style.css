@@ -3542,6 +3542,297 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Gift
+==================================*/
+#Gift main .jumbo_sect .wrapper {
+  background-image: url(../images/gift/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Gift main .sect_1 .wrapper {
+  padding-left: 100px;
+  padding-right: 60px;
+}
+
+#Gift main .sect_1 .wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 80px;
+  padding-left: 25px;
+}
+
+#Gift main .sect_1 .wrapper ul li {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  padding: 0 25px;
+}
+
+#Gift main .sect_1 .wrapper ul li:not(:last-child) {
+  border-right: 1px solid #21201f;
+}
+
+#Gift main .sect_1 .wrapper ul li a {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 13px;
+  color: #21201f;
+  letter-spacing: .15em;
+}
+
+#Gift main .sect_1 .wrapper ul li a.here {
+  color: #c2c0be;
+}
+
+#Gift main .sect_2 .wrapper {
+  padding-left: 150px;
+  padding-bottom: 100px;
+}
+
+#Gift main .sect_2 .wrapper .row {
+  align-items: flex-end;
+}
+
+#Gift main .sect_2 .wrapper .row .col:first-child {
+  width: 53%;
+  padding-right: 20px;
+}
+
+#Gift main .sect_2 .wrapper .row .col:first-child h3 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 26px;
+  color: #21201f;
+  letter-spacing: .1em;
+  margin-bottom: 10px;
+  line-height: 45px;
+}
+
+#Gift main .sect_2 .wrapper .row .col:first-child span {
+  display: block;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: .2em;
+  color: #21201f;
+  margin-bottom: 50px;
+}
+
+#Gift main .sect_2 .wrapper .row .col:first-child h4 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 20px;
+  color: #21201f;
+  letter-spacing: .1em;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+#Gift main .sect_2 .wrapper .row .col:first-child p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 49.6px;
+}
+
+#Gift main .sect_2 .wrapper .row .col:last-child {
+  width: 47%;
+  text-align: right;
+}
+
+#Gift main .sect_2 .wrapper .row .col:last-child img {
+  width: 100%;
+}
+
+#Gift main .sect_3 .wrapper {
+  padding-right: 60px;
+  padding-left: 150px;
+  padding-bottom: 90px;
+}
+
+#Gift main .sect_3 .wrapper .info_cont {
+  position: relative;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .head_cont {
+  width: 67%;
+  margin-left: auto;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .head_cont h3 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 20px;
+  color: #21201f;
+  line-height: 52px;
+  margin-bottom: 20px;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .head_cont p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 35.2px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e5e3e0;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .img_cont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .img_cont img {
+  width: 100%;
+  max-width: 300px;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .list_cont {
+  width: 67%;
+  margin-left: auto;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .list_cont .row .col:first-child {
+  width: 140px;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .list_cont .row .col:first-child p {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #21201f;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .list_cont .row .col:last-child {
+  width: calc(100% - 140px);
+}
+
+#Gift main .sect_3 .wrapper .info_cont .list_cont .row .col:last-child p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 33.6px;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .list_cont .row .col:last-child p:nth-of-type(1), #Gift main .sect_3 .wrapper .info_cont .list_cont .row .col:last-child p:nth-of-type(2) {
+  text-indent: -94px;
+  margin-left: 94px;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .list_cont .row .col:last-child p:nth-of-type(3) {
+  text-indent: -78px;
+  margin-left: 78px;
+}
+
+#Gift main .sect_3 .wrapper .info_cont .list_cont .row .col:last-child p:nth-of-type(4) {
+  text-indent: -125px;
+  margin-left: 125px;
+}
+
+#Gift main .sect_4 .wrapper {
+  padding-right: 60px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+}
+
+#Gift main .sect_4 .wrapper .row {
+  justify-content: space-between;
+}
+
+#Gift main .sect_4 .wrapper .row .col {
+  width: 30.42%;
+}
+
+#Gift main .sect_4 .wrapper .row .col:nth-of-type(3) h4 {
+  padding: 15px 0 10px;
+}
+
+#Gift main .sect_4 .wrapper .row .col img {
+  width: 100%;
+}
+
+#Gift main .sect_4 .wrapper .row .col h4 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 20px;
+  color: #21201f;
+  line-height: 30px;
+  padding: 30px 0 25px;
+}
+
+#Gift main .sect_4 .wrapper .row .col p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 35.2px;
+}
+
+#Gift main .sect_5 .wrapper {
+  padding-left: 150px;
+  padding-bottom: 125px;
+}
+
+#Gift main .sect_5 .wrapper h3 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #21201f;
+  letter-spacing: .2em;
+  margin-bottom: 15px;
+}
+
+#Gift main .sect_5 .wrapper .row {
+  align-items: flex-end;
+}
+
+#Gift main .sect_5 .wrapper .row .col:first-child {
+  width: 440px;
+  padding-left: 30px;
+}
+
+#Gift main .sect_5 .wrapper .row .col:first-child h4 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #21201f;
+  margin-bottom: 20px;
+}
+
+#Gift main .sect_5 .wrapper .row .col:first-child p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+#Gift main .sect_5 .wrapper .row .col:first-child p a {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+}
+
+#Gift main .sect_5 .wrapper .row .col:last-child {
+  width: calc(100% - 440px);
+}
+
+#Gift main .sect_5 .wrapper .row .col:last-child iframe {
+  height: 420px;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
