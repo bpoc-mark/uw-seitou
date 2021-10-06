@@ -34,10 +34,10 @@
           <div class="breadcrumbs">
             <ul class="">
               <li>
-                <a href="/coop/">ONE STOP SERVICE</a>
+                <a href="/service/">ONE STOP SERVICE</a>
               </li>
               <li>
-                <a href="/coop/">ワンストップサービス</a>
+                <a href="/service/">ワンストップサービス</a>
               </li>
             </ul>
           </div>

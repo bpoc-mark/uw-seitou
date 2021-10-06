@@ -1,0 +1,96 @@
+/*==================================
+  Works List
+==================================*/
+#Works_list main {
+  .jumbo_sect{
+    .wrapper{
+      background-image: url(../images/works_list/bg_jumbo.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+  .sect_1{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 150px;
+      .cat_cont{
+        .post_cat{
+          margin-bottom: 65px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          flex-wrap: wrap;
+          li{
+            line-height: 1;
+            padding: 0 20px;
+            border-left: 1px solid #21201f;
+            display: flex;
+            align-items: center;
+            &:first-child{
+              padding: 0 20px 0 0;
+              border-left: none;
+            }
+            a{
+              @include Noto_Sans(500);
+              font-size: 14px;
+              color: #21201f;
+              &.active{
+                color: #c6c4c2;
+              }
+            }
+          }
+        }
+      }
+      .row{
+        justify-content: flex-start;
+        margin-bottom: 110px;
+        .col{
+          width: 30.42%;
+          &:nth-child(3n+2){
+            margin-left: 4.37%;
+          }
+          &:nth-child(3n+3){
+            margin-left: 4.37%;
+          }
+          &:nth-child(n+4){
+            margin-top: 70px;
+          }
+          a{
+            img{
+              width: 100%;
+            }
+            .post_data{
+              .post_date_cat{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-end;
+                padding-top: 28px;
+                padding-bottom: 5px;
+                span{
+                  @include Noto_Sans(500);
+                  color: #21201f;
+  
+                  &:nth-child(1){
+                    font-size: 16px;
+                  }
+                  &:nth-child(2){
+                    font-size: 14px;
+                    margin-left: 10px;
+                  }
+                }
+              }
+              .post_title{
+                @include Noto_Sans(300);
+                color: #21201f;
+                font-size: 16px;
+                line-height: 27px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
