@@ -4040,6 +4040,108 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Shop
+==================================*/
+#Shop main .jumbo_sect .wrapper {
+  background-image: url(../images/shop/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Shop main .sect_1 .wrapper {
+  padding-left: 150px;
+  padding-right: 60px;
+  padding-bottom: 170px;
+}
+
+#Shop main .sect_1 .wrapper .row {
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+#Shop main .sect_1 .wrapper .row .col {
+  width: 47%;
+  padding-left: 35px;
+}
+
+#Shop main .sect_1 .wrapper .row .col .head_row {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+#Shop main .sect_1 .wrapper .row .col .head_row::before {
+  content: "";
+  display: block;
+  background-color: #efeeec;
+  width: calc(100% - 150px);
+  height: 90.5%;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+
+#Shop main .sect_1 .wrapper .row .col .head_row.row {
+  padding-top: 0;
+  align-items: flex-end;
+}
+
+#Shop main .sect_1 .wrapper .row .col .head_row.row .col {
+  padding-left: 0;
+}
+
+#Shop main .sect_1 .wrapper .row .col .head_row.row .col:first-child {
+  width: 150px;
+  padding-bottom: 20px;
+}
+
+#Shop main .sect_1 .wrapper .row .col .head_row.row .col:first-child a:hover img {
+  left: 20px;
+}
+
+#Shop main .sect_1 .wrapper .row .col .head_row.row .col:first-child a p {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #21201f;
+  letter-spacing: .2em;
+  line-height: 33px;
+  margin-bottom: 15px;
+}
+
+#Shop main .sect_1 .wrapper .row .col .head_row.row .col:first-child a img {
+  width: 29px;
+  position: relative;
+  left: 0;
+  transition: .3s ease-in-out;
+}
+
+#Shop main .sect_1 .wrapper .row .col .head_row.row .col:last-child {
+  width: calc(100% - 150px);
+}
+
+#Shop main .sect_1 .wrapper .row .col .head_row.row .col:last-child img {
+  width: 100%;
+}
+
+#Shop main .sect_1 .wrapper .row .col h3 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+#Shop main .sect_1 .wrapper .row .col p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 33.6px;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
