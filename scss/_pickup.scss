@@ -1,0 +1,136 @@
+/*==================================
+  Pickup
+==================================*/
+#Pickup main {
+  .jumbo_sect{
+    .wrapper{
+      background-image: url(../images/pickup_list/bg_jumbo.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+  .sect_1{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 125px;
+      .post_date_cat{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 25px;
+        .post_date{
+          @include Hind_Siliguri(500);
+          font-size: 16px;
+          color: #21201f;
+        }
+        .post_cat{
+          @include Hind_Siliguri(500);
+          font-size: 16px;
+          color: #21201f;
+          margin-left: 13px;
+        }
+      }
+      .post_title{
+        @include Noto_Sans(500);
+        font-size: 20px;
+        color: #21201f;
+        margin-bottom: 80px;
+      }
+      .post_content{
+        @include Noto_Sans(300);
+        font-size: 16px;
+        color: #21201f;
+        line-height: 50px;
+      }
+      .post_featured_img{
+        margin-top: 60px;
+        max-width: 520px;
+        img{
+          width: 100%;
+        }
+      }
+      .btn_cont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 80px;
+        .btn_left{
+          a{
+            @include Hind_Siliguri(500);
+            font-size: 14px;
+            color: #21201f;
+            letter-spacing: .2em;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            &:hover{
+              img{
+                transform: rotate(180deg);
+              }
+            }
+            img{
+              width: 12px;
+              margin-right: 20px;
+              transition: .3s ease-in-out;
+            }
+          }
+        }
+        .btn_right{
+          ul{
+            display: flex;
+            li{
+              width: 115px;
+              &:first-child{
+                padding-right: 25px;
+                a{
+                  justify-content: flex-end;
+                  &:hover{
+                    img{
+                      margin-right: 5px;
+                    }
+                  }
+                  img{
+                    transform: scaleX(-1);
+                    margin-right: 15px;
+                  }
+                }
+              }
+              &:last-child{
+                padding-left: 25px;
+                a{
+                  &:hover{
+                    img{
+                      margin-left: 5px;
+                    }
+                  }
+                  img{
+                    margin-left: 15px;
+                  }
+                }
+              }
+              a{
+                width: 100%;
+                @include Hind_Siliguri(500);
+                font-size: 14px;
+                color: #21201f;
+                letter-spacing: .2em;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                img{
+                  width: 29px;
+                  position: relative;
+                  right: 0;
+                  left: 0;
+                  transition: .3s ease-in-out;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

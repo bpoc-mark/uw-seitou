@@ -4246,6 +4246,154 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Pickup
+==================================*/
+#Pickup main .jumbo_sect .wrapper {
+  background-image: url(../images/pickup_list/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Pickup main .sect_1 .wrapper {
+  padding-left: 150px;
+  padding-right: 60px;
+  padding-bottom: 125px;
+}
+
+#Pickup main .sect_1 .wrapper .post_date_cat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+#Pickup main .sect_1 .wrapper .post_date_cat .post_date {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #21201f;
+}
+
+#Pickup main .sect_1 .wrapper .post_date_cat .post_cat {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #21201f;
+  margin-left: 13px;
+}
+
+#Pickup main .sect_1 .wrapper .post_title {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 20px;
+  color: #21201f;
+  margin-bottom: 80px;
+}
+
+#Pickup main .sect_1 .wrapper .post_content {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 50px;
+}
+
+#Pickup main .sect_1 .wrapper .post_featured_img {
+  margin-top: 60px;
+  max-width: 520px;
+}
+
+#Pickup main .sect_1 .wrapper .post_featured_img img {
+  width: 100%;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_left a {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #21201f;
+  letter-spacing: .2em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_left a:hover img {
+  transform: rotate(180deg);
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_left a img {
+  width: 12px;
+  margin-right: 20px;
+  transition: .3s ease-in-out;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_right ul {
+  display: flex;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_right ul li {
+  width: 115px;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_right ul li:first-child {
+  padding-right: 25px;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_right ul li:first-child a {
+  justify-content: flex-end;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_right ul li:first-child a:hover img {
+  margin-right: 5px;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_right ul li:first-child a img {
+  transform: scaleX(-1);
+  margin-right: 15px;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_right ul li:last-child {
+  padding-left: 25px;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_right ul li:last-child a:hover img {
+  margin-left: 5px;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_right ul li:last-child a img {
+  margin-left: 15px;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_right ul li a {
+  width: 100%;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #21201f;
+  letter-spacing: .2em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#Pickup main .sect_1 .wrapper .btn_cont .btn_right ul li a img {
+  width: 29px;
+  position: relative;
+  right: 0;
+  left: 0;
+  transition: .3s ease-in-out;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
