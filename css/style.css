@@ -4142,6 +4142,110 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Pickup List
+==================================*/
+#Pickup_list main .jumbo_sect .wrapper {
+  background-image: url(../images/pickup_list/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Pickup_list main .sect_1 .wrapper {
+  padding-left: 150px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .post_cat {
+  margin-bottom: 65px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .post_cat li {
+  line-height: 1;
+  padding: 0 20px;
+  border-left: 1px solid #21201f;
+  display: flex;
+  align-items: center;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .post_cat li:first-child {
+  padding: 0 20px 0 0;
+  border-left: none;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .post_cat li a {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #21201f;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .post_cat li a.active {
+  color: #c6c4c2;
+}
+
+#Pickup_list main .sect_1 .wrapper .row {
+  justify-content: flex-start;
+  margin-bottom: 80px;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col {
+  width: 30.42%;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col:nth-child(3n+2) {
+  margin-left: 4.37%;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col:nth-child(3n+3) {
+  margin-left: 4.37%;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col:nth-child(n+4) {
+  margin-top: 60px;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a img {
+  width: 100%;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a .post_data .post_date_cat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a .post_data .post_date_cat span {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  color: #21201f;
+  font-size: 16px;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a .post_data .post_date_cat span:nth-child(2) {
+  margin-left: 10px;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a .post_data .post_title {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  color: #21201f;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+#Pickup_list main .sect_1 .wrapper .page_navigation {
+  justify-content: flex-end;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {

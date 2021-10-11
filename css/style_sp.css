@@ -4190,6 +4190,148 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Pickup List
+==================================*/
+#Pickup_list main .jumbo_sect .wrapper {
+  background-image: url(../images/works_list/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Pickup_list main .sect_1 .wrapper {
+  padding-left: 55px;
+  padding-right: 15px;
+  padding-bottom: 75px;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .sp_select {
+  position: relative;
+  border: 1px solid #d7d7d7;
+  padding: 10px 20px;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .sp_select img {
+  width: 15px;
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  right: 12px;
+  transform: translate(0, -50%);
+  transition: .3s ease-in-out;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .sp_select img.active {
+  transform: translate(0, -50%) rotate(180deg);
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .sp_select::after {
+  content: "";
+  display: block;
+  background-color: #d7d7d7;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translate(0, -50%);
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .post_cat {
+  display: none;
+  position: absolute;
+  top: 46px;
+  left: 0;
+  overflow: auto;
+  width: 100%;
+  z-index: 3;
+  -webkit-overflow-scrolling: touch;
+  max-height: 200px;
+  background-color: #fff;
+  margin-bottom: 65px;
+  border: 1px solid #d7d7d7;
+  border-top: none;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .post_cat li {
+  width: 100%;
+  line-height: 1;
+  padding: 10px 20px;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .post_cat li a {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #21201f;
+}
+
+#Pickup_list main .sect_1 .wrapper .cat_cont .post_cat li a.active {
+  color: #c6c4c2;
+}
+
+#Pickup_list main .sect_1 .wrapper .row {
+  justify-content: flex-start;
+  padding-bottom: 40px;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col {
+  width: 100%;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a {
+  display: block;
+  position: relative;
+  display: flex;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a img {
+  width: 118px;
+  height: 100%;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a .post_data {
+  width: calc(100% - 118px);
+  padding-left: 15px;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a .post_data .post_date_cat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a .post_data .post_date_cat span {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  color: #21201f;
+  font-size: 16px;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a .post_data .post_date_cat span:nth-child(1) {
+  margin-right: 10px;
+}
+
+#Pickup_list main .sect_1 .wrapper .row .col a .post_data .post_title {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  color: #21201f;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
