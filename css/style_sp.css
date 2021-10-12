@@ -5523,12 +5523,14 @@ main#Contact .submit_cont .agree_area {
 
 main#Contact .submit_cont .agree_area input[type="checkbox"] + label {
   padding-left: 40px;
+  margin-right: 0 !important;
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 385px) {
   main#Contact .submit_cont .agree_area input[type="checkbox"] + label {
     display: block;
     line-height: 1.8;
+    font-size: 4vw !important;
   }
 }
 
@@ -5541,9 +5543,15 @@ main#Contact .submit_cont .agree_area input[type="checkbox"] + label::before {
   height: 31px;
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 385px) {
   main#Contact .submit_cont .agree_area input[type="checkbox"] + label::after {
-    top: 30%;
+    top: 50%;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  main#Contact .submit_cont .agree_area input[type="checkbox"] + label::after {
+    top: 60%;
   }
 }
 
