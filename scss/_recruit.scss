@@ -1,0 +1,346 @@
+/*==================================
+  Recruit
+==================================*/
+#Recruit main {
+  .jumbo_sect{
+    .wrapper{
+      background-image: url(../images/recruit/bg_jumbo.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+  .sect_1{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 140px;
+      .row{
+        padding-left: 30px;
+        .col{
+          width: 50%;
+          &:first-child{
+            padding-right: 20px;
+            h3{
+              @include Noto_Sans(500);
+              font-size: 26px;
+              color: #21201f;
+              line-height: 52px;
+              text-indent: -53px;
+              margin-left: 53px;
+              margin-top: 35px;
+            }
+          }
+          &:last-child{
+            p{
+              @include Noto_Sans(300);
+              font-size: 16px;
+              color: #21201f;
+              line-height: 49.6px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_2{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 190px;
+      h3{
+        @include Hind_Siliguri(500);
+        font-size: 22px;
+        color: #21201f;
+        letter-spacing: .2em;
+        margin-bottom: 130px;
+      }
+      .item{
+        &:not(:last-child){
+          margin-bottom: 190px;
+        }
+        &:nth-of-type(2){
+          .top{
+            &.row{
+              &::before{
+                left: unset;
+                right: 0;
+              }
+              flex-direction: row-reverse;
+              .col{
+                &:nth-of-type(1){
+                  padding-bottom: 118px;
+                }
+                &:nth-of-type(2){
+                  
+                }
+                &:nth-of-type(3){
+                  bottom: 26px;
+                  h4{
+                    line-height: 36px;
+                    letter-spacing: -1px;
+                    @media only screen and (max-width: 1100px) {
+                      line-height: 25px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .bottom{
+            &.row{
+              flex-direction: row-reverse;
+            }
+          }
+        }
+        .top{
+          margin-bottom: 50px;
+          &.row{
+            position: relative;
+            align-items: flex-end;
+            &::before{
+              content: "";
+              display: block;
+              width: 52%;
+              height: 84%;
+              background-color: #efeeec;
+              position: absolute;
+              top: -70px;
+              left: 0;
+            }
+            .col{
+              &:nth-of-type(1){
+                width: 35%;
+                padding-left: 40px;
+                padding-bottom: 120px;
+                span{
+                  @include Hind_Siliguri(500);
+                  font-size: 24px;
+                  color: #21201f;
+                  letter-spacing: .1em;
+                }
+              }
+              &:nth-of-type(2){
+                width: 65%;
+                img{
+                  width: 100%;
+                }
+              }
+              &:nth-of-type(3){
+                width: 35%;
+                padding-left: 40px;
+                position: absolute;
+                bottom: 60px;
+
+                h4{
+                  @include Noto_Sans(500);
+                  font-size: 18px;
+                  color: #21201f;
+                  letter-spacing: .1em;
+                  margin-top: 40px;
+                }
+              }
+            }
+          }
+        }
+        .bottom{
+          &.row{
+            position: relative;
+            .col{
+              &:first-child{
+                width: 35%;
+                padding-left: 40px;
+                padding-right: 50px;
+                img{
+                  width: 100%;
+                }
+              }
+              &:last-child{
+                width: 65%;
+                h5{
+                  @include Noto_Sans(500);
+                  font-size: 20px;
+                  color: #21201f;
+                  margin-bottom: 25px;
+                }
+                p{
+                  @include Noto_Sans(300);
+                  font-size: 16px;
+                  color: #21201f;
+                  line-height: 35.2px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_3{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 170px;
+      .row{
+        padding-left: 30px;
+        .col{
+          width: 50%;
+          &:first-child{
+            padding-right: 20px;
+            h3{
+              @include Noto_Sans(500);
+              font-size: 26px;
+              color: #21201f;
+              line-height: 52px;
+              text-indent: -53px;
+              margin-left: 53px;
+              margin-top: 20px;
+            }
+          }
+          &:last-child{
+            p{
+              @include Noto_Sans(300);
+              font-size: 16px;
+              color: #21201f;
+              line-height: 49.6px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_4{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 95px;
+      h3{
+        @include Hind_Siliguri(500);
+        font-size: 22px;
+        color: #21201f;
+        letter-spacing: .2em;
+      }
+      .list_cont{
+        margin-top: 60px;
+        &.row{
+          .col{
+            width: 30.42%;
+            margin-bottom: 55px;
+            &:nth-child(3n+2){
+              margin-left: 4.37%;
+            }
+            &:nth-child(3n+3){
+              margin-left: 4.37%;
+            }
+            img{
+              width: 100%;
+            }
+            h4{
+              @include Noto_Sans(500);
+              font-size: 17px;
+              color: #21201f;
+              line-height: 33.6px;
+              padding: 20px 0;
+              margin-bottom: 25px;
+              border-bottom: 1px solid #e5e3e0;
+            }
+            h3{
+              @include Noto_Sans(500);
+              font-size: 20px;
+              color: #21201f;
+              line-height: 33.6px;
+              letter-spacing: .1em;
+              margin-bottom: 5px;
+            }
+            p{
+              @include Noto_Sans(300);
+              font-size: 16px;
+              color: #21201f;
+              line-height: 35.2px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_5{
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 60px;
+      padding-bottom: 130px;
+      h3{
+        @include Hind_Siliguri(500);
+        font-size: 22px;
+        color: #21201f;
+        letter-spacing: .2em;
+        margin-bottom: 50px;
+      }
+      ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+          width: 49%;
+          &:first-child{
+            a{
+              font-size: 18px;
+            }
+          }
+          &:last-child{
+            a{
+              svg{
+                @media only screen and (max-width: 940px) {
+                  right: 30px;
+                }
+              }
+            }
+          }
+          a{
+            display: block;
+            position: relative;
+            width: 100%;
+            border: 1px solid #dedcd9;
+            padding: 40px 60px;
+            box-sizing: border-box;
+            @include Hind_Siliguri(500);
+            font-size: 20px;
+            color: #21201f;
+            letter-spacing: .2em;
+            transition: .3s ease-in-out;
+            &:hover{
+              svg{
+                polyline, path, line{
+                  stroke:#fff;
+                  transition: .3s ease-in-out;
+                  transition-delay: .1s;
+                }
+              }
+              color: #fff;
+              &::before{
+                width: 100%;
+              }
+            }
+            &::before{
+              content: "";
+              background-color: #302d2b;
+              transition: .3s ease-in-out;
+              width: 0;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: -1;
+            }
+            svg{
+              width: 20px;
+              position: absolute;
+              top: 50%;
+              right: 60px;
+              transform: translate(0, -50%);
+            }
+          }
+        }
+      }
+    }
+  }
+}

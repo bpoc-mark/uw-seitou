@@ -1,0 +1,325 @@
+/*==================================
+  Recruit
+==================================*/
+#Recruit main {
+  .jumbo_sect{
+    .wrapper{
+      background-image: url(../images/recruit/bg_jumbo.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+  .sect_1{
+    .wrapper{
+      padding-left: 55px;
+      padding-right: 15px;
+      padding-bottom: 65px;
+      .row{
+        .col{
+          width: 100%;
+          &:first-child{
+            margin-bottom: 30px;
+            h3{
+              @include Noto_Sans(500);
+              font-size: 22px;
+              color: #21201f;
+              line-height: 35px;
+              letter-spacing: -.5px;
+            }
+          }
+          &:last-child{
+            p{
+              @include Noto_Sans(300);
+              font-size: 16px;
+              color: #21201f;
+              line-height: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_2{
+    .wrapper{
+      padding-left: 50px;
+      padding-bottom: 90px;
+      h3{
+        @include Hind_Siliguri(500);
+        font-size: 18px;
+        color: #21201f;
+        letter-spacing: .2em;
+        margin-bottom: 53px;
+      }
+      .item{
+        &:not(:last-child){
+          margin-bottom: 80px;
+        }
+        &:nth-of-type(2){
+          .top{
+            &.row{
+              &::before{
+                left: unset;
+                right: 0;
+              }
+              flex-direction: row-reverse;
+              .col{
+                &:nth-of-type(1){
+                }
+                &:nth-of-type(2){
+                  padding-left: 5px;
+                }
+                &:nth-of-type(3){
+                  margin: 20px 0 10px;
+                  h4{
+                    line-height: 22.5px;
+                  }
+                }
+              }
+            }
+          }
+          .bottom{
+            &.row{
+              flex-direction: row-reverse;
+            }
+          }
+        }
+        .top{
+          &.row{
+            position: relative;
+            align-items: flex-end;
+            &::before{
+              content: "";
+              display: block;
+              width: 76%;
+              height: 64%;
+              background-color: #efeeec;
+              position: absolute;
+              top: -23px;
+              left: 0;
+            } 
+            .col{
+              &:nth-of-type(1){
+                width: 75px;
+                padding-left: 25px;
+                padding-bottom: 25px;
+                span{
+                  @include Hind_Siliguri(500);
+                  font-size: 20px;
+                  color: #21201f;
+                  letter-spacing: .1em;
+                }
+              }
+              &:nth-of-type(2){
+                width: calc(100% - 75px);
+                img{
+                  width: 100%;
+                }
+              }
+              &:nth-of-type(3){
+                margin: 20px 0 15px;
+                padding-right: 15px;
+                h4{
+                  @include Noto_Sans(500);
+                  font-size: 15px;
+                  color: #21201f;
+                  letter-spacing: .1em;
+                }
+              }
+            }
+          }
+        }
+        .bottom{
+          &.row{
+            position: relative;
+            padding-left: 5px;
+            padding-right: 15px;
+            .col{
+              &:first-child{
+                width: 35%;
+                padding-left: 40px;
+                padding-right: 50px;
+                img{
+                  width: 100%;
+                }
+              }
+              &:last-child{
+                width: 100%;
+                h5{
+                  @include Noto_Sans(500);
+                  font-size: 17px;
+                  color: #21201f;
+                  line-height: 25px;
+                  margin-bottom: 20px;
+                }
+                p{
+                  @include Noto_Sans(300);
+                  font-size: 16px;
+                  color: #21201f;
+                  line-height: 25.5px;
+
+                  img{
+                    float: left;
+                    width: 50%; 
+                    margin-right: 15px;
+                    // margin-bottom: 20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  } 
+  .sect_3{
+    .wrapper{
+      padding-left: 55px;
+      padding-right: 15px;
+      padding-bottom: 60px;
+      .row{
+        .col{
+          width: 100%;
+          &:first-child{
+            margin-bottom: 30px;
+            h3{
+              @include Noto_Sans(500);
+              font-size: 22px;
+              color: #21201f;
+              line-height: 35px;
+              letter-spacing: -.5px;
+            }
+          }
+          &:last-child{
+            p{
+              @include Noto_Sans(300);
+              font-size: 16px;
+              color: #21201f;
+              line-height: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_4{
+    .wrapper{
+      padding-left: 55px;
+      padding-right: 15px;
+      padding-bottom: 20px;
+      h3{
+        @include Hind_Siliguri(500);
+        font-size: 18px;
+        color: #21201f;
+        letter-spacing: .2em;
+      }
+      .list_cont{
+        margin-top: 40px;
+        &.row{
+          .col{
+            width: 100%;
+            margin-bottom: 40px;
+            img{
+              width: 100%;
+            }
+            h4{
+              @include Noto_Sans(500);
+              font-size: 16px;
+              color: #21201f;
+              line-height: 33.6px;
+              padding: 10px 0 10px;
+              margin-bottom: 15px;
+              border-bottom: 1px solid #e5e3e0;
+            }
+            h3{
+              @include Noto_Sans(500);
+              font-size: 18px;
+              color: #21201f;
+              line-height: 33.6px;
+              letter-spacing: 1px;
+            }
+            p{
+              @include Noto_Sans(300);
+              font-size: 16px;
+              color: #21201f;
+              line-height: 25.5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_5{
+    .wrapper{
+      padding-left: 55px;
+      padding-right: 15px;
+      padding-bottom: 70px;
+      h3{
+        @include Hind_Siliguri(500);
+        font-size: 18x;
+        color: #21201f;
+        letter-spacing: .2em;
+        margin-bottom: 30px;
+      }
+      ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        li{
+          width: 100%;
+          margin-bottom: 15px;
+          &:first-child{
+            a{
+              font-size: 16px;
+            }
+          }
+          a{
+            display: block;
+            position: relative;
+            width: 100%;
+            border: 1px solid #dedcd9;
+            padding: 23px 18px;
+            box-sizing: border-box;
+            @include Hind_Siliguri(500);
+            font-size: 16px;
+            color: #21201f;
+            letter-spacing: .2em;
+            transition: .3s ease-in-out;
+            &:hover{
+              svg{
+                polyline, path, line{
+                  stroke:#fff;
+                  transition: .3s ease-in-out;
+                  transition-delay: .1s;
+                }
+              }
+              color: #fff;
+              &::before{
+                width: 100%;
+              }
+            }
+            &::before{
+              content: "";
+              background-color: #302d2b;
+              transition: .3s ease-in-out;
+              width: 0;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: -1;
+            }
+            svg{
+              width: 15px;
+              position: absolute;
+              top: 50%;
+              right: 23px;
+              transform: translate(0, -50%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
