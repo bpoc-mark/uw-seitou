@@ -8,49 +8,49 @@
 						<a href="/">TOP</a>
 					</li>
 					<li>
-						<a href="/">SHOP INFO</a>
+						<a href="/shop/">SHOP INFO</a>
 						<ul class="sub_menu">
 							<li>
-								<a href="">キッチングッズ</a>
+								<a href="/kitchen/">キッチングッズ</a>
 							</li>
 							<li>
-								<a href="">ギフトショップ</a>
+								<a href="/gift/">ギフトショップ</a>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<a href="/"><span class="pc">FOOD BUSINESS</span> ONE STOP SERVICE</a>
+						<a href="/service/"><span class="pc">FOOD BUSINESS</span> ONE STOP SERVICE</a>
 					</li>
 				</ul>
 				<ul>
 					<li>
-						<a href="/">COMPANY</a>
+						<a href="/contact/">COMPANY</a>
 						<ul class="sub_menu">
 							<li>
-								<a href="">ごあいさつ</a>
+								<a href="/greetings/">ごあいさつ</a>
 							</li>
 							<li>
-								<a href="">事業内容</a>
+								<a href="/business/">事業内容</a>
 							</li>
 							<li>
-								<a href="">会社概要</a>
+								<a href="/overview/">会社概要</a>
 							</li>
 							<li>
-								<a href="">沿革</a>
+								<a href="/history/">沿革</a>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<a href="/">RECRUIT</a>
+						<a href="/recruit/">RECRUIT</a>
 					</li>
 					<li>
-						<a href="/">PICK UP</a>
+						<a href="/pickup_list/">PICK UP</a>
 					</li>
 				</ul>
 			</nav>
 			<p>
-				<a href="">CONTACT</a>
-				<a href="">PRIVACY POLICY</a>
+				<a href="/contact/">CONTACT</a>
+				<a href="/privacy/">PRIVACY POLICY</a>
 			</p>
 			<div class="copy pc">
 				<small>Copyright &copy; SEITOU All rights reserved</small>

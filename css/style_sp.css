@@ -4917,6 +4917,9 @@ main#Contact span.error {
   color: #cc0303;
   display: block;
   margin: 7px 0 0;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
 }
 
 main#Contact input:-webkit-autofill {
@@ -4931,8 +4934,8 @@ main#Contact input[type="tel"]:focus,
 main#Contact input[type="search"]:focus,
 main#Contact input[type="url"]:focus,
 main#Contact textarea:focus {
-  color: #000;
-  background-color: #dddddd;
+  color: #21201f;
+  background-color: #f7f6f6;
 }
 
 main#Contact .ERR {
@@ -4940,14 +4943,16 @@ main#Contact .ERR {
 }
 
 main#Contact input[type="text"] {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
   padding: 12px 21px;
-  border: 1px solid #dddddd;
-  background: #dddddd;
+  border: 1px solid transparent;
+  background: #f7f6f6;
   box-sizing: border-box;
-  color: #000;
+  color: #21201f;
   width: 100%;
 }
 
@@ -4957,26 +4962,41 @@ main#Contact input[type="text"].zip {
 }
 
 main#Contact .zip-wrap {
-  background: #dddddd;
+  background: #f7f6f6;
   display: inline-block;
   position: relative;
-  max-width: 247px;
+  max-width: 490px;
   width: 100%;
   margin-right: 3px;
 }
 
 main#Contact .zip-wrap::before {
   content: "〒";
-  font-size: 18px;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
   position: absolute;
-  top: 0.8em;
-  left: 24px;
+  top: 50%;
+  left: 30px;
+  transform: translate(0, -50%);
   margin: auto;
 }
 
+@media (max-width: 899px) {
+  main#Contact .zip-wrap::before {
+    left: 20px;
+  }
+}
+
 main#Contact .zip-wrap input {
-  padding: 12px 21px 12px 55px;
+  padding: 25px 25px 25px 70px !important;
   width: 100%;
+}
+
+@media (max-width: 899px) {
+  main#Contact .zip-wrap input {
+    padding: 18px 15px 18px 55px !important;
+  }
 }
 
 main#Contact input[type="button"] {
@@ -4984,11 +5004,11 @@ main#Contact input[type="button"] {
   line-height: 1.625;
   letter-spacing: 0.03em;
   font-weight: 500;
-  color: #000;
+  color: #21201f;
   max-width: 140px;
   width: 100%;
-  background: #dddddd;
-  border: 3px solid #dddddd;
+  background: #f7f6f6;
+  border: 3px solid transparent;
   padding: 10px 19px;
   box-sizing: border-box;
   transition: all 0.3s ease;
@@ -5000,6 +5020,9 @@ main#Contact input[type="button"]:hover {
 }
 
 main#Contact input[type="checkbox"] + label {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
   padding-left: 29px;
   position: relative;
   margin-right: 29px;
@@ -5014,8 +5037,8 @@ main#Contact input[type="checkbox"] + label::before {
   left: 0;
   width: 22px;
   height: 22px;
-  border: 1px solid #dddddd;
-  background: #dddddd;
+  border: 1px solid transparent;
+  background: #f7f6f6;
   box-sizing: border-box;
 }
 
@@ -5026,11 +5049,11 @@ main#Contact input[type="checkbox"] + label::after {
   border-bottom: 3px solid #000;
   display: block;
   height: 9px;
-  left: 7px;
+  left: 12px;
   margin-top: -8px;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 65%;
   transform: rotate(45deg);
   width: 5px;
 }
@@ -5058,8 +5081,8 @@ main#Contact input[type="radio"] + label::before {
   left: 0;
   width: 17px;
   height: 17px;
-  border: 1px solid #dddddd;
-  background: #dddddd;
+  border: 1px solid transparent;
+  background: #f7f6f6;
   box-sizing: border-box;
   border-radius: 50%;
 }
@@ -5091,12 +5114,12 @@ main#Contact .select-box {
   text-align: center;
   position: relative;
   border-radius: 2px;
-  background: #dddddd;
+  background: #f7f6f6;
 }
 
 main#Contact .select-box select {
   font-size: 16px;
-  color: #000;
+  color: #21201f;
   letter-spacing: 0.035em;
   width: 100%;
   padding-right: 1em;
@@ -5131,22 +5154,30 @@ main#Contact .select-box::before {
 }
 
 main#Contact textarea {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
-  border: 1px solid #dddddd;
-  background: #dddddd;
+  border: 1px solid transparent;
+  background: #f7f6f6;
   box-sizing: border-box;
   width: 100%;
   padding: 12px 21px;
-  min-height: 174px;
+  min-height: 365px;
+}
+
+@media (max-width: 899px) {
+  main#Contact textarea {
+    min-height: 280px;
+  }
 }
 
 main#Contact .overscroll {
   overflow-y: scroll;
   height: 237px;
   padding: 25px 21px;
-  background: #dddddd;
+  background: #f7f6f6;
 }
 
 main#Contact .overscroll ul > li {
@@ -5160,7 +5191,7 @@ main#Contact .overscroll ul > li strong {
   letter-spacing: 0.03em;
   display: block;
   margin-bottom: 5px;
-  color: #000;
+  color: #21201f;
 }
 
 main#Contact .overscroll ul > li p {
@@ -5191,19 +5222,21 @@ main#Contact .submit_area {
 }
 
 main#Contact .submit_area span {
-  font-size: 18px;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
   line-height: 1.4;
   letter-spacing: 0.13em;
-  color: #000;
+  color: #21201f;
   width: 262px;
-  background: #dddddd;
+  background: #fff;
   box-sizing: border-box;
   font-feature-settings: "palt";
   position: relative;
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
-  border: 3px solid #dddddd;
+  border: 1px solid #dedcd9;
   transition: all 0.3s ease;
 }
 
@@ -5211,7 +5244,7 @@ main#Contact .submit_area span input[type="submit"] {
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.13em;
-  color: #000;
+  color: #21201f;
   cursor: pointer;
   width: 100%;
   height: 58px;
@@ -5223,7 +5256,7 @@ main#Contact .submit_area span:hover {
 }
 
 main#Contact .submit_area span:hover input[type="submit"] {
-  color: #000;
+  color: #21201f;
 }
 
 main#Contact .submit_area ul.koumoku {
@@ -5235,7 +5268,7 @@ main#Contact .submit_area ul.koumoku li {
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.13em;
-  color: #000;
+  color: #21201f;
   width: 262px;
   background: #5f4b08;
   box-sizing: border-box;
@@ -5252,7 +5285,7 @@ main#Contact .submit_area ul.koumoku li input[type="submit"] {
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.13em;
-  color: #000;
+  color: #21201f;
   cursor: pointer;
   width: 100%;
   height: 58px;
@@ -5264,11 +5297,11 @@ main#Contact .submit_area ul.koumoku li:hover {
 }
 
 main#Contact .submit_area ul.koumoku li:hover input[type="submit"] {
-  color: #000;
+  color: #21201f;
 }
 
 main#Contact .submit_area ul.koumoku li:hover svg path {
-  fill: #000;
+  fill: #21201f;
 }
 
 main#Contact .btn_back {
@@ -5277,19 +5310,21 @@ main#Contact .btn_back {
 }
 
 main#Contact .btn_back input {
-  font-size: 18px;
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.4;
   letter-spacing: 0.13em;
   color: #fff;
   width: 262px;
-  background: #dddddd;
+  background: #f7f6f6;
   box-sizing: border-box;
   font-feature-settings: "palt";
   position: relative;
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
-  border: 3px solid #dddddd;
+  border: 3px solid transparent;
   transition: all 0.3s ease;
   height: 58px;
   padding: 15px 15px 14px;
@@ -5301,32 +5336,41 @@ main#Contact .contact_back {
 }
 
 main#Contact .contact_back a {
-  font-size: 18px;
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.4;
   letter-spacing: 0.13em;
   color: #fff;
   width: 262px;
-  background: #dddddd;
+  background: #f7f6f6;
   box-sizing: border-box;
   font-feature-settings: "palt";
   position: relative;
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
-  border: 3px solid #dddddd;
+  border: 3px solid transparent;
   transition: all 0.3s ease;
   height: 58px;
   padding: 15px 15px 14px;
 }
 
 main#Contact .contact_back a:hover {
-  color: #000;
+  color: #21201f;
   background: none;
 }
 
 /*==================================
   Contact
 ==================================*/
+main#Contact .jumbo_sect .wrapper {
+  background-image: url(../images/company/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 main#Contact .container p {
   font-size: 16px;
 }
@@ -5336,11 +5380,6 @@ main#Contact .container p > a {
   background-size: 100% 1px;
   padding-bottom: 2px;
   display: inline;
-}
-
-main#Contact .agree_area {
-  margin: 30px 0 0;
-  text-align: center;
 }
 
 main#Contact .need {
@@ -5357,24 +5396,24 @@ main#Contact table tbody {
 
 main#Contact table tr {
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 main#Contact table tr th {
-  font-size: 16px;
-  line-height: 1;
-  letter-spacing: 0.03em;
+  font-family: "Noto Sans JP";
   font-weight: 500;
+  font-size: 16px;
+  color: #21201f;
   display: block;
   text-align: left;
-  margin-bottom: 13px;
+  margin-bottom: 10px;
 }
 
-main#Contact table tr th .caution {
-  display: block;
-  text-indent: -1em;
-  padding-left: 1em;
-  margin-top: 8px;
+main#Contact table tr th span {
+  color: #c4b376;
+  font-size: 22px;
+  position: relative;
+  top: 5px;
 }
 
 main#Contact table tr td {
@@ -5382,7 +5421,23 @@ main#Contact table tr td {
 }
 
 main#Contact table tr td .text02 {
-  margin-top: 8px;
+  margin-top: 20px;
+}
+
+main#Contact table tr td input[type="text"] {
+  padding: 15px 18px;
+}
+
+main#Contact table tr td textarea {
+  padding: 15px 18px;
+}
+
+main#Contact table tr td .ctm_width_70 {
+  width: 100%;
+}
+
+main#Contact table tr td .ctm_width_70 input:nth-of-type(2) {
+  margin-top: 10px;
 }
 
 main#Contact .check-list {
@@ -5420,11 +5475,173 @@ main#Contact .check-list.play > li {
   margin-right: 20px;
 }
 
+main#Contact .form_wrap {
+  padding-left: 55px;
+  padding-right: 15px;
+  padding-bottom: 100px;
+}
+
 main#Contact .form_wrap > p {
-  margin-top: 0 !important;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
+  color: #21201f;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+main#Contact .form_wrap > p span {
+  color: #c4b376;
+  font-size: 22px;
+  position: relative;
+  top: 7px;
+}
+
+main#Contact .form_wrap > h3 {
+  margin-bottom: 60px;
+}
+
+main#Contact .form_wrap > h3 a {
+  font-family: 'Hind Siliguri', sans-serif;
   font-weight: 500;
+  font-size: 24px;
+  color: #21201f;
+}
+
+main#Contact .submit_cont {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+main#Contact .submit_cont .agree_area {
+  width: 100%;
+  text-align: left;
+  padding-top: 6px;
+}
+
+main#Contact .submit_cont .agree_area input[type="checkbox"] + label {
+  padding-left: 40px;
+}
+
+@media only screen and (max-width: 370px) {
+  main#Contact .submit_cont .agree_area input[type="checkbox"] + label {
+    display: block;
+    line-height: 1.8;
+  }
+}
+
+main#Contact .submit_cont .agree_area input[type="checkbox"] + label a {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+main#Contact .submit_cont .agree_area input[type="checkbox"] + label::before {
+  width: 31px;
+  height: 31px;
+}
+
+@media only screen and (max-width: 370px) {
+  main#Contact .submit_cont .agree_area input[type="checkbox"] + label::after {
+    top: 30%;
+  }
+}
+
+main#Contact .submit_cont .submit_area {
+  width: 100%;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1090px) {
+  main#Contact .submit_cont .submit_area {
+    width: 100%;
+    padding-top: 50px;
+  }
+}
+
+main#Contact .submit_cont .submit_area span {
+  width: 100%;
+}
+
+main#Contact .submit_cont .submit_area span:hover img {
+  right: 20;
+}
+
+main#Contact .submit_cont .submit_area span input {
+  text-align: left;
+  height: 60px;
+  padding-left: 20px;
+}
+
+main#Contact .submit_cont .submit_area span img {
+  width: 24px;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(0, -50%);
+  transition: all .3s ease-in-out;
+}
+
+main.sfm2 .submit_area {
+  margin-top: 50px !important;
+}
+
+main.sfm2 .submit_area .koumoku {
+  max-width: 100% !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main.sfm2 .submit_area .koumoku .btn_back {
+  order: 2;
+  width: 100% !important;
+  margin-bottom: 20px !important;
+  border: 3px solid #302d2b !important;
+}
+
+main.sfm2 .submit_area .koumoku .btn_back input {
+  background-color: #fff !important;
+}
+
+main.sfm2 .submit_area .koumoku .btn_back input:hover {
+  background-color: #302d2b !important;
+  color: #fff !important;
+}
+
+main.sfm2 .submit_area .koumoku .send {
+  order: 1;
+  width: 100% !important;
+  border: 3px solid #302d2b !important;
+}
+
+main.sfm2 .submit_area .koumoku .send input {
+  background-color: #302d2b !important;
+  color: #fff !important;
+  transition: .3s ease-in-out;
+}
+
+main.sfm2 .submit_area .koumoku .send input:hover {
+  background-color: #fff !important;
+  color: #302d2b !important;
+}
+
+main.sfm3 .contact_back {
+  width: 100% !important;
+}
+
+main.sfm3 .contact_back a {
+  width: 100% !important;
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #21201f !important;
+  color: #fff !important;
+  border: 1px solid #21201f !important;
+  transition: .3s ease-in-out;
+}
+
+main.sfm3 .contact_back a:hover {
+  color: #21201f !important;
+  background-color: #fff !important;
 }
 /*# sourceMappingURL=style_sp.css.map */

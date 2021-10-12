@@ -48,36 +48,36 @@
           <div class="row">
             <div class="col">
               <div class="head_row row">
-                <div class="col">
+                <div class="col  c-anim-up">
                   <a href="/kitchen/">
                     <p>KITCHEN <br> GOODS</p>
                     <img src="/images/shop/arrow.svg" alt="">
                   </a>
                 </div>
-                <div class="col">
+                <div class="col  c-anim-up">
                   <img src="/images/shop/img_1.png" alt="">
                 </div>
               </div>
-              <h3>キッチン用品店 <br class="sp">「キッチンスタジオ セイ」</h3>
-              <p>
+              <h3 class=" c-anim-up">キッチン用品店 <br class="sp">「キッチンスタジオ セイ」</h3>
+              <p class=" c-anim-up">
                 セイトウのショールームは県下最大規模、約25,000点に及ぶ最新のキッチン用品を取り揃えております。<br>
                 日々の暮らしを通して、使い心地のよいものをご提案いたします。
               </p>
             </div>
             <div class="col">
               <div class="head_row row">
-                <div class="col">
+                <div class="col c-anim-up">
                   <a href="/gift/">
                     <p>GIFT <br> SHOP</p>
                     <img src="/images/shop/arrow.svg" alt="">
                   </a>
                 </div>
-                <div class="col">
+                <div class="col c-anim-up">
                   <img src="/images/shop/img_2.png" alt="">
                 </div>
               </div>
-              <h3>ギフト専門店 「ギフトピュア」</h3>
-              <p>
+              <h3 class=" c-anim-up">ギフト専門店 「ギフトピュア」</h3>
+              <p class=" c-anim-up">
                 セイトウのショールームは県下最大規模、約25,000点に及ぶ最新のキッチン用品を取り揃えております。<br>
                 日々の暮らしを通して、使い心地のよいものをご提案いたします。
               </p>

@@ -46,11 +46,11 @@
       <section class="sect_1">
         <div class="wrapper">
           <div class="row">
-            <div class="col">
+            <div class="col c-anim-up">
               <h3>「料理」を最大限に<br class="sp">美味しく見せる<br class="pc">
                   遊び心ある<br class="sp">食器コーディネート</h3>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <p>
                 株式会社セイトウは、1973年の創業。以来、飲食ビジネスに求められる<br>
                 ありとあらゆるモノを取扱う総合商社として、ご愛顧をいただいてまいりました。<br>
@@ -70,12 +70,12 @@
       </section>
       <section class="sect_2">
         <div class="wrapper">
-          <div class="head_cont">
+          <div class="head_cont c-anim-up">
             <h3>WORKS</h3>
-            <a href="">VIEW ALL</a>
+            <a href="/works_list/">VIEW ALL</a>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img1.png" alt="">
                 <div class="post_data">
@@ -87,7 +87,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img2.png" alt="">
                 <div class="post_data">
@@ -99,7 +99,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img3.png" alt="">
                 <div class="post_data">
@@ -111,7 +111,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img1.png" alt="">
                 <div class="post_data">
@@ -123,7 +123,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img2.png" alt="">
                 <div class="post_data">
@@ -135,7 +135,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img3.png" alt="">
                 <div class="post_data">
@@ -154,7 +154,7 @@
         <div class="wrapper">
           <h3>POINT</h3>
           <div class="point">
-            <div class="row">
+            <div class="row c-anim-up">
               <div class="col">
                 <p>01</p>
               </div>
@@ -169,13 +169,13 @@
                 </ul>
               </div>
             </div>
-            <div class="info">
+            <div class="info c-anim-up">
               <h4>展示品約25,000点！ショールームの圧倒的品揃え</h4>
               <p>セイトウの業務用ショールーム [キッチンスタジアム] は県下最大規模、約25,000点に及ぶ最新の飲食ビジネスに関わるあらゆるアイテムを取り揃えております。プロの料理道具は言うに及ばず、 国産や海外一流ブランドの皿などの陶磁器、 ガラス食器、 カトラリーといったテーブルウェアから椅子・テーブル、 什器類、 さらには、ラップやホイル·洗剤などの消耗品、 メニューやのれん・のぼりなどの販促用品、POSレジスターに至るまで、すべてワンストップで揃えていただくことができます。</p>
             </div>
           </div>
           <div class="point">
-            <div class="row">
+            <div class="row c-anim-up">
               <div class="col">
                 <p>02</p>
               </div>
@@ -190,7 +190,7 @@
                 </ul>
               </div>
             </div>
-            <div class="info">
+            <div class="info c-anim-up">
               <h4>プロの目利き御用達</h4>
               <p>
                 セイトウのショールームでは、見て、触れて、確かめていただくのが基本。カタログだけでは分かり難い、サイズや重量感、手触りや質感などを実際に確かめることができます。ご来場いただければ飲食店、ホテル、給食施設など、その道のプロのお客様が時間をかけ、納得いくまで品定めされている様子を見ることができます。一方、これから業界に一歩踏みだされるビギナーのお客様には、親身にご相談に乗り、セイトウの提案力をフルに発揮。<br>
@@ -199,7 +199,7 @@
             </div>
           </div>
           <div class="point">
-            <div class="row">
+            <div class="row c-anim-up">
               <div class="col">
                 <p>03</p>
               </div>
@@ -214,7 +214,7 @@
                 </ul>
               </div>
             </div>
-            <div class="info">
+            <div class="info c-anim-up">
               <h4>セイトウの、地元密着バックアップシステム</h4>
               <p>
                 セイトウにはお客様に定期的に訪問する「セイトウバックアップチーム」があります。<br>
@@ -226,16 +226,16 @@
       </section>
       <section class="sect_4">
         <div class="wrapper">
-          <h3>GROUP COMPANY</h3>
+          <h3 class=" c-anim-up">GROUP COMPANY</h3>
           <div class="row">
-            <div class="col">
+            <div class="col c-anim-up">
               <h4>
                 事業計画のご相談から <br>
                 メンテナンスまで。
               </h4>
               <p>トータルプロデュースの底力</p>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <p>
                 グループ企業である、「東洋厨機工業」と連携し、<br>
                 厨房機器のご提案から修理サポートまで対応させていただきます。<br>
@@ -252,10 +252,10 @@
       </section>
       <section class="sect_5">
         <div class="wrapper">
-          <h3>POINT</h3>
+          <h3 class=" c-anim-up">POINT</h3>
           <div class="point_cont">
             <div class="row">
-              <div class="col">
+              <div class="col c-anim-up">
                 <span>01</span>
                 <h5>
                   食ビジネスの入門者からベテランまで、<br>
@@ -267,7 +267,7 @@
                   こうした適切な情報提供やアドバイスは、起こりがちなビギナーのひとりよがりを防ぐことにもなり、東洋厨機工業への信頼の源泉となっています。これら「お客さま支援」は、リース・金融といった大切な開業資金計画のご相談·アドバイスとともに、東洋厨機工業の企業文化ともなって根づいています。第一歩は、まず私たちに気軽にご相談いただくことからお始めください。
                 </p>
               </div>
-              <div class="col">
+              <div class="col c-anim-up">
                 <picture>
                   <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                   <source srcset="/images/service/sp/row_5_img1.png" media="(max-width: 899px)" type="image/webp">
@@ -277,7 +277,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col">
+              <div class="col c-anim-up">
                 <span>02</span>
                 <h5>
                   時代を見据えた企画・提案 <br>
@@ -297,7 +297,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col">
+              <div class="col c-anim-up">
                 <picture>
                   <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                   <source srcset="/images/service/sp/row_5_img2.png" media="(max-width: 899px)" type="image/webp">
@@ -307,7 +307,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col">
+              <div class="col c-anim-up">
                 <span>03</span>
                 <h5>
                   厨房の複雑な諸機能を、効果的にとり<br class="sp">まとめるスペシャリスト <br>
@@ -320,7 +320,7 @@
                   施工は専門の作業スタッフにより、品質と安全が最優先の工程のもと進められます。
                 </p>
               </div>
-              <div class="col">
+              <div class="col c-anim-up">
                 <picture>
                   <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                   <source srcset="/images/service/sp/row_5_img3.png" media="(max-width: 899px)" type="image/webp">
@@ -330,7 +330,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col">
+              <div class="col c-anim-up">
                 <span>04</span>
                 <h5>
                   不測のトラブルにはサービス班が急行 <br>
@@ -342,7 +342,7 @@
                   メーカー等では時として難しいこともある即時対応。地元密着ならではの即応力と、蓄積された技術力は東洋厨機工業の強みでもあります。
                 </p>
               </div>
-              <div class="col">
+              <div class="col c-anim-up">
                 <picture>
                   <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                   <source srcset="/images/service/sp/row_5_img4.png" media="(max-width: 899px)" type="image/webp">
@@ -356,10 +356,10 @@
       </section>
       <section class="sect_6">
         <div class="wrapper">
-          <h3>CONTACT</h3>
-          <ul>
+          <h3 class=" c-anim-up">CONTACT</h3>
+          <ul class=" c-anim-up">
             <li>
-              <a href="">MAIL FORM 
+              <a href="/contact/">MAIL FORM 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.56 27.38"><defs><style>.cls-1,.cls-2{fill:none;stroke:#21201f;stroke-width:1.77px;}.cls-2{stroke-linecap:round;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="レイヤー_1" data-name="レイヤー 1"><polyline class="cls-1" points="32.68 6.18 32.68 26.5 0.88 26.5 0.88 0.88 32.68 0.88 32.68 6.18"/><polyline class="cls-2" points="6.18 9.72 16.78 16.78 27.38 9.72"/></g></g></svg>
               </a>
             </li>

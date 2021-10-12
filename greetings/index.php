@@ -68,11 +68,11 @@
             </li>
           </ul>
           <div class="row">
-            <div class="col">
+            <div class="col c-anim-up">
               <img src="/images/greetings/img_1.png" alt="">
               <p>代表取締役社長  <span>鈴木 浩太郎</span></p>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <h3>
               笑顔あふれる心豊かな<br>
               幸せ空間創りに貢献します。

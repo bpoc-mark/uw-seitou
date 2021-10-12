@@ -20,7 +20,7 @@
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
 </head>
 
-<body id="Competitive">
+<body id="Inquiry">
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
 	<div id="AllBox">
 		<header>
@@ -28,14 +28,40 @@
 		</header>
 
 		<main id="Contact" class="sfm3">
+			<section class="jumbo_sect">
+				<div class="wrapper">
+					<div class="breadcrumbs">
+						<ul class="">
+							<li>
+								<a href="/contact/">CONTACT</a>
+							</li>
+							<li>
+								<a href="/contact/">お問い合わせ</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 			<section class="form-sec">
-				<div class="send_comp container">
+				<div class="form_wrap">
 					<p>
 						この度は、株式会社●●●●へお問合わせ頂き、<br class="pc">誠にありがとうございました。<br><br>
 						内容を確認後、ご入力されたメールアドレス宛にお返事致します。<br><br>なお、ご記入頂いたメールアドレス宛てに自動返信メールをお送りしております。<br>自動返信メールが届いていない場合は、メールアドレスが誤っている可能性がございます。<br>その際は大変お手数ですが、再度お問合わせくださいませ。</p>
 					<div class="contact_back">
 						<a href="/">トップへ戻る</a>
 					</div>
+				</div>
+			</section>
+			<section class="footer_breadcrumbs pc">
+				<div class="wrapper">
+					<ul>
+						<li>
+							<a href="/">TOP</a>
+						</li>
+						<li>
+							<a href="/contact/">お問い合わせ</a>
+						</li>
+					</ul>
 				</div>
 			</section>
 		</main>

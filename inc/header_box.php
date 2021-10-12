@@ -20,7 +20,7 @@ $str = explode('/', $url); ?>
 			</div>
 		</div>
 		<div class="col">
-			<a href="">CONTACT</a>
+			<a href="/contact/">CONTACT</a>
 		</div>
 	</div>
 
@@ -32,52 +32,52 @@ $str = explode('/', $url); ?>
 			<nav>
 				<ul>
 					<li>
-						<a href="">TOP <br> <span>トップ</span></a>
+						<a href="/">TOP <br> <span>トップ</span></a>
 					</li>
 					<li>
-						<a href="">SHOP INFO <br> <span>店舗案内</span></a>
+						<a href="/shop/">SHOP INFO <br> <span>店舗案内</span></a>
 						<ul class="sub_menu">
 							<li>
-								<a href="">キッチングッズ</a>
+								<a href="/kitchen/">キッチングッズ</a>
 							</li>
 							<li>
-								<a href="">ギフトショップ</a>
+								<a href="/gift/">ギフトショップ</a>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<a href="">ONE STOP SERVICE <br> <span>ワンストップサービス</span></a>
+						<a href="/service/">ONE STOP SERVICE <br> <span>ワンストップサービス</span></a>
 					</li>
 				</ul>
 				<ul>
 					<li>
-						<a href="">COMPANY <br><span>会社案内</span></a>
+						<a href="/company/">COMPANY <br><span>会社案内</span></a>
 						<ul class="sub_menu">
 							<li>
-								<a href="">ごあいさつ</a>
+								<a href="/greetings/">ごあいさつ</a>
 							</li>
 							<li>
-								<a href="">事業内容</a>
+								<a href="/business/">事業内容</a>
 							</li>
 							<li>
-								<a href="">会社概要</a>
+								<a href="/overview/">会社概要</a>
 							</li>
 							<li>
-								<a href="">沿革</a>
+								<a href="/history/">沿革</a>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<a href="">RECRUIT <br> <span>採用情報</span></a>
+						<a href="/recruit/">RECRUIT <br> <span>採用情報</span></a>
 					</li>
 					<li>
-						<a href="">PICK UP <br> <span>お知らせ</span></a>
+						<a href="/pickup_list/">PICK UP <br> <span>お知らせ</span></a>
 					</li>
 				</ul>
 			</nav>	
 			<ul class="sns_link">
 				<li>
-					<a href="">CONTACT</a>
+					<a href="/contact/">CONTACT</a>
 				</li>
 				<li>
 					<a href="">

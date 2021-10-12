@@ -63,7 +63,7 @@
             </ul>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/pickup_list/img_1.png" alt="">
                 <div class="post_data">
@@ -75,7 +75,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/pickup_list/img_2.png" alt="">
                 <div class="post_data">
@@ -87,7 +87,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/pickup_list/img_3.png" alt="">
                 <div class="post_data">
@@ -99,7 +99,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/pickup_list/img_1.png" alt="">
                 <div class="post_data">
@@ -111,7 +111,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/pickup_list/img_2.png" alt="">
                 <div class="post_data">
@@ -123,7 +123,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/pickup_list/img_3.png" alt="">
                 <div class="post_data">
@@ -135,7 +135,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/pickup_list/img_1.png" alt="">
                 <div class="post_data">
@@ -147,7 +147,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/pickup_list/img_2.png" alt="">
                 <div class="post_data">
@@ -159,7 +159,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/pickup_list/img_3.png" alt="">
                 <div class="post_data">
@@ -173,7 +173,7 @@
             </div>
           </div>
           <!-- Wordpress -->
-          <div class="page_navigation">
+          <div class="page_navigation c-anim-up">
             <div class="wp-pagenavi">
               <a class="previouspostslink" href="#" rel="prev"><img src="/images/works_list/arrow.svg" alt=""> PREV</a>
               <span class="current">1</span>

@@ -20,7 +20,7 @@
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
 </head>
 
-<body id="Competitive">
+<body id="Inquiry">
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
 	<div id="AllBox">
 		<header>
@@ -28,39 +28,76 @@
 		</header>
 
 		<main id="Contact" class="sfm1">
-
-
-
+			<section class="jumbo_sect">
+				<div class="wrapper">
+				<div class="breadcrumbs">
+					<ul class="">
+					<li>
+						<a href="/contact/">CONTACT</a>
+					</li>
+					<li>
+						<a href="/contact/">お問い合わせ</a>
+					</li>
+					</ul>
+				</div>
+				</div>
+			</section>
 			<section class="form-sec">
-				<div class="form_wrap container">
-					<p>必要項目を入力し、個人情報保護方針をご確認の上、入力内容の確認ボタンを押してください。</p>
-
+				<div class="form_wrap">
+					<p>
+						当社のお問い合わせページをご覧いただきましてありがとうございます。<br>
+						お問い合わせは下記フォーム、またはお電話にてお願い致します。<br>
+						お問い合わせフォームは［ <span>*</span> ］の必須項目をご記入の上、「入力内容を確認する」を押してください。<br>
+						後日、弊社担当者よりご連絡致します。 
+					</p>
+					<h3><a href="tel:0538-34-2191">Tel. 0538-34-2191</a></h3>
 
 					<form method="post" name="sfm-form" id="sfm-form" action="./">
 						<table>
 							<tr>
-								<th>お名前<span class="need">〈必須〉</span></th>
-								<td><input type="text" name="name_s" value="" title="" placeholder="例）山田 太郎"></td>
+								<th>お名前（フリガナ） <span>*</span></th>
+								<td>
+									<div class="ctm_width_70">
+										<input type="text" name="name_s" value="" title="" placeholder="例：  山田　太郎">
+										<input type="text" name="furigana_s" value="" title="" placeholder="例：  ヤマダ　タロウ">
+									</div>
+								</td>
 							</tr>
 
 							<tr>
-								<th>メールアドレス<span class="need">〈必須〉</span></th>
-								<td><input type="text" name="email_s" value="" title="" placeholder="例）mail@example.com"></td>
+								<th>会社名（店名）</th>
+								<td> 
+									<input type="text" name="store_s" value="" title="" placeholder="例：  株式会社セイトウ">
+								</td>
+							</tr>
+
+							<tr>
+								<th>お電話番号 <span>*</span></th>
+								<td>
+									<div class="ctm_width_70">
+										<input type="text" name="tel_s" value="" title="" placeholder="例：  0538-34-2191">
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<th>メールアドレス <span>*</span></th>
+								<td><input type="text" name="email_s" value="" title="" placeholder="例：  abc@sample.com"></td>
 							</tr>
 
 							<tr class="address">
-								<th>ご住所<span class="need">〈必須〉</span></th>
+								<th>ご住所</th>
 								<td>
 									<span class="zip-wrap">
-										<input class="zip" type="text" name="zip_s" size="10" maxlength="8" placeholder="例）123-0004">
+										<input class="zip" type="text" name="zip_s" size="10" maxlength="8" placeholder="例：  438-0071">
 									</span>
-									<input class="ad_btn" type="button" value="住所自動入力"><br>
-									<input class="text02" type="text" name="address_s" size="60" placeholder="例）静岡県浜松市南区下江町413">
+									<input class="ad_btn" type="button" value="住所自動入力" hidden><br>
+									<input class="text02" type="text" name="address_s" size="60" placeholder="例：  静岡県磐田市今之浦1-7-6">
 								</td>
 							</tr>
 
 
-							<tr>
+							<!-- <tr>
 								<th>チェックボックス <span class="need">〈必須〉</span></th>
 								<td>
 									<div class="checkbox">
@@ -81,10 +118,10 @@
 										</ul>
 									</div>
 								</td>
-							</tr>
+							</tr> -->
 
 
-							<tr>
+							<!-- <tr>
 								<th>ラジオボタン <span class="need">〈必須〉</span></th>
 								<td>
 									<div class="checkbox">
@@ -105,9 +142,9 @@
 										</ul>
 									</div>
 								</td>
-							</tr>
+							</tr> -->
 
-							<tr>
+							<!-- <tr>
 								<th>セレクトボックス<span class="need">〈必須〉</span></th>
 								<td>
 									<div class="select-box">
@@ -119,16 +156,16 @@
 										</select>
 									</div>
 								</td>
-							</tr>
+							</tr> -->
 
 							<tr>
-								<th>お問合せ内容<span class="need">〈必須〉</span></th>
+								<th>お問い合わせ内容<span>*</span></th>
 								<td><textarea name="message_s" title=""></textarea></td>
 							</tr>
 
 						</table>
 
-						<div class="overscroll">
+						<!-- <div class="overscroll">
 							<ul>
 								<li>
 									<strong>個人情報保護方針</strong>
@@ -193,23 +230,40 @@
 									</p>
 								</li>
 							</ul>
-						</div>
+						</div> -->
 
-						<div class="agree_area">
-							<input type="checkbox" name="agree" id="checkAgree">
-							<label for="checkAgree" class="checkAgree">同意します</label>
-						</div>
+						<!-- submit_area -->
+						<div class="submit_cont">
+							<div class="agree_area">
+								<input type="checkbox" name="agree" id="checkAgree">
+								<label for="checkAgree" class="checkAgree"><a href="/privacy/">プライバシーポリシー</a> に同意する</label>
+							</div>
 
-						<div class="submit_area">
-							<span>
-								<input id="checkSubmit" type="submit" value="入力内容を確認" class="pushbtn" />
-							</span>
-						</div><!-- submit_area -->
+							<div class="submit_area">
+								<span>
+									<input id="checkSubmit" type="submit" value="入力内容を確認する" class="pushbtn" />
+									<img src="/images/contact/arrow.svg" alt="">
+								</span>
+							</div>
+						</div>
+						
 
 
 						<input type="hidden" name="mailToNum" value="0" />
 						<input type="hidden" name="mode" value="CONFIRM" />
 					</form>
+				</div>
+			</section>
+			<section class="footer_breadcrumbs pc">
+				<div class="wrapper">
+					<ul>
+						<li>
+							<a href="/">TOP</a>
+						</li>
+						<li>
+							<a href="/contact/">お問い合わせ</a>
+						</li>
+					</ul>
 				</div>
 			</section>
 		</main>
@@ -254,6 +308,9 @@
 				email: function(value, element) {
 					return this.optional(element) || /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/.test(value);
 				},
+				tel: function(value, element) {
+					return this.optional(element) || /^[0-9]+[0-9.-]+$/.test(value);
+				},
 			};
 
 			//メソッドの追加
@@ -266,25 +323,32 @@
 				name_s: {
 					required: true
 				},
+				furigana_s: {
+					required: true
+				},
 				email_s: {
 					email: true,
 					required: true,
 				},
-				'check_s[]': {
+				tel_s: {
+					tel: true,
 					required: true,
 				},
-				'radio_s[]': {
-					required: true,
-				},
-				zip_s: {
-					required: true
-				},
-				select_s: {
-					required: true
-				},
-				address_s: {
-					required: true,
-				},
+				// 'check_s[]': {
+				// 	required: true,
+				// },
+				// 'radio_s[]': {
+				// 	required: true,
+				// },
+				// zip_s: {
+				// 	required: true
+				// },
+				// select_s: {
+				// 	required: true
+				// },
+				// address_s: {
+				// 	required: true,
+				// },
 				message_s: {
 					required: true,
 				}
@@ -300,6 +364,9 @@
 				},
 				check_s: {
 					required: "チェックボックスを選択してください"
+				},
+				tel_s: {
+					tel: "正しい電話番号を入力してください"
 				}
 			};
 
@@ -343,6 +410,12 @@
 		$(function() {
 			$('.ad_btn').click(function() {
 				AjaxZip3.zip2addr('zip_s', '', 'address_s', 'address_s');
+			});
+
+			$('input[name="zip_s"]').keyup(function() {
+				if( $(this).val().length === 7 ) { 
+					$('.ad_btn').click();
+				}
 			});
 		});
 	</script>

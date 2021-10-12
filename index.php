@@ -59,7 +59,7 @@
 			<section class="sect_2">
 				<div class="wrapper">
 					<h3 class="c-anim-up">PICK UP</h3>
-					<a href="" class="btn_viewall">VIEW ALL</a>
+					<a href="/pickup_list/" class="btn_viewall">VIEW ALL</a>
 					<!-- Slider main container -->
 					<div class="swiper sect_2_slider c-anim-up">
 						<!-- Additional required wrapper -->
@@ -127,7 +127,7 @@
 						<div class="col">
 							<p class="c-anim-up">KITCHEN <br>
 								GOODS</p>
-							<a href="">
+							<a href="/kitchen/">
 								<img src="/images/top/section_4/arrow.svg" alt="">
 							</a>
 						</div>
@@ -199,7 +199,7 @@
 					<div class="row">
 						<div class="col">
 							<p class="c-anim-up">GIFT SHOP</p>
-							<a href="">
+							<a href="/gift/">
 								<img src="/images/top/section_4/arrow.svg" alt="">
 							</a>
 						</div>
@@ -269,16 +269,16 @@
 			<section class="sect_6">
 				<div class="wrapper">
 					<div class="txt_cont c-anim-up">
-						<a href="" class="btn_link">
+						<a href="/service/" class="btn_link">
 							<span class="c-anim-up">ONE STOP SERVICE</span>
 							<h3 class="c-anim-up">飲食店オープンの<br class="sp">ワンストップサービス</h3>
 							<p class="pc c-anim-up">お客様のご要望をしっかりと把握しプランを組み立て、イメージに合った最高クラスのものをご予算内でご提案。<br>
 								信頼のおける数多のブランドからトータルコーディネイト致します。<br>
 								長年の経験値と培った提案力でお客様のサポートをお約束します。</p>
-							<p href="" class="btn_viewmore pc">VIEW MORE</p>
+							<p class="btn_viewmore pc">VIEW MORE</p>
 						</a>
 					</div>
-					<a href="" class="sp c-anim-up">お客様のご要望をしっかりと把握しプランを組み立て、イメージに合った最高クラスのものをご予算内でご提案。<br>
+					<a href="/service/" class="sp c-anim-up">お客様のご要望をしっかりと把握しプランを組み立て、イメージに合った最高クラスのものをご予算内でご提案。<br>
 							信頼のおける数多のブランドからトータルコーディネイト致します。<br>
 							長年の経験値と培った提案力でお客様のサポートをお約束します。
 							<img src="./images/top/section_6/arrow.svg" alt="">
@@ -292,15 +292,15 @@
 							<img src="/images/top/section_7/img_1.png" alt="" class="c-anim-up">
 							<ul>
 								<li class="c-anim-up">
-									<a href="">COMPANY <span>/  会社案内</span></a>
+									<a href="/company/">COMPANY <span>/  会社案内</span></a>
 									<img src="/images/top/section_7/arrow.svg" alt="">
 								</li>
 								<li class="c-anim-up">
-									<a href="">CO-OP <span>/  会社案内</span></a>
+									<a href="/coop/">CO-OP <span>/  会社案内</span></a>
 									<img src="/images/top/section_7/arrow.svg" alt="">
 								</li>
 								<li class="c-anim-up">
-									<a href="">RECRUIT <span>/  採用情報</span></a>
+									<a href="/recruit/">RECRUIT <span>/  採用情報</span></a>
 									<img src="/images/top/section_7/arrow.svg" alt="">
 								</li>
 							</ul>

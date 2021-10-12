@@ -46,20 +46,20 @@
       <section class="sect_1">
         <div class="wrapper">
           <p class="post_date_cat">
-            <span class="post_date">2021.05.01</span>
-            <span class="post_cat">レストラン</span>
+            <span class="post_date c-anim-up">2021.05.01</span>
+            <span class="post_cat c-anim-up">レストラン</span>
           </p>
-          <h3 class="post_title">浜北区中瀬 こんがりパン工房ペパル様</h3>
-          <p class="post_content">
+          <h3 class="post_title c-anim-up">浜北区中瀬 こんがりパン工房ペパル様</h3>
+          <p class="post_content c-anim-up">
           めまぐるしく過ぎていく日々のなかで、お家でゆったりと過ごしていますか？ <br>
           にぎやかな街もステキですが、自分だけの空間"お家"で過ごす時間を大事にしてほしい。<br>
           私たちセイトウはお家で過ごすここちいい時間をつくるお手伝いができればと考え、<br>
           たくさんのキッチン用品をとり揃えています。ぜひ、お友達を誘って遊びにきてください。
           </p>
-          <div class="post_featured_img">
+          <div class="post_featured_img c-anim-up">
             <img src="/images/works/img_1.png" alt="">
           </div>
-          <div class="btn_cont">
+          <div class="btn_cont c-anim-up">
             <div class="btn_left">
               <a href=""><img src="/images/works/btn_box.svg" alt=""> BACK</a>
             </div>

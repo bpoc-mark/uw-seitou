@@ -69,7 +69,7 @@
             </ul>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img1.png" alt="">
                 <div class="post_data">
@@ -81,7 +81,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img2.png" alt="">
                 <div class="post_data">
@@ -93,7 +93,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img3.png" alt="">
                 <div class="post_data">
@@ -105,7 +105,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img1.png" alt="">
                 <div class="post_data">
@@ -117,7 +117,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img2.png" alt="">
                 <div class="post_data">
@@ -129,7 +129,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img3.png" alt="">
                 <div class="post_data">
@@ -141,7 +141,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img1.png" alt="">
                 <div class="post_data">
@@ -153,7 +153,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img2.png" alt="">
                 <div class="post_data">
@@ -165,7 +165,7 @@
                 </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col c-anim-up">
               <a href="">
                 <img src="/images/service/row_2_img3.png" alt="">
                 <div class="post_data">

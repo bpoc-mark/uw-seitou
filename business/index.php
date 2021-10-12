@@ -67,7 +67,7 @@
 											} ?>>沿  革</a>
             </li>
           </ul>
-          <p class="bs_desc">
+          <p class="bs_desc c-anim-up">
             セイトウは業務用食器、調理道具、備品、厨房設備をはじめ、<br>
             家庭向け調理・食卓用品、インテリア用品、小物などの卸売・小売を主力業務としています。<br>
             フォーマルギフト・カジュアルギフトの専門店も構え、地域の皆様にご利用いただいています。
@@ -76,21 +76,21 @@
             <div class="item">
               <div class="row">
                 <div class="col">
-                  <span class="num">01</span>
+                  <span class="num  c-anim-up">01</span>
                   <h3>
                     <span>〈 業務用食器・備品一式 〉</span>
                     ワンストップですべてが揃うコンサルティング型 卸売
                   </h3>
-                  <p class="desc">
+                  <p class="desc  c-anim-up">
                     ホテル、レストラン、各種飲食店、給食施設など「食」を提供する施設に必須の什器・備品から食器までを総合的にコーディネートします。セイトウなら、ワンストップですべてがそろいます。<br>
                     当社の特徴は、事業主であるお客様のパートナーとして商売繁盛を実現させる提案力です。飲食事業を始められるお客様とともに店舗の強みや魅力を分析。当社の豊富なデータベースや情報網を活用し、勝ち抜くためのメニューや料理の見せ方まで検討します。お客様は料理と器がテーブルに広がる景色をイメージしながら、店舗のプランを練ることができます。<br>
                     SNS時代にアドバンテージとなる料理のビジュアルや驚きをお探しの企業様・事業主様はぜひご相談ください。
                   </p>
                   <div class="row">
-                    <div class="col">
+                    <div class="col  c-anim-up">
                       <p>■ 取扱品目</p>
                     </div>
-                    <div class="col">
+                    <div class="col  c-anim-up">
                       <div class="pc">
                         <ul>
                           <li>
@@ -138,7 +138,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col  c-anim-up">
                   <picture>
                     <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                     <source srcset="/images/business/sp/img_01.png" media="(max-width: 899px)" type="image/webp">
@@ -147,7 +147,7 @@
                   </picture>
                 </div>
                 <div class="col">
-                  <a href="" class="btn_link">
+                  <a href="" class="btn_link c-anim-up">
                     詳細はこちら
                     <img src="/images/business/arrow.svg" alt="">
                   </a>
@@ -155,17 +155,17 @@
               </div>
             </div>
             <div class="item">
-              <span class="num">02</span>
-              <h3>
+              <span class="num  c-anim-up">02</span>
+              <h3 class=" c-anim-up">
                 <!-- <span>〈 業務用食器・備品一式 〉</span> -->
                 ショールーム・小売 「キッチンスタジオ セイ」 卸売
               </h3>
-              <p class="desc">
+              <p class="desc  c-anim-up">
                 本社2階のショールーム・小売店舗には、25,000点に上る業務用食器や調理道具などをご用意。<br>
                 各種飲食店の新規オープンやリニューアルを検討中のお客様が、食器や調理道具を実際に手に取って質感や使い勝手をお確かめいただけます。<br>
                 もちろん、一般のお客様も大歓迎。プロ用調理道具をお気軽にご覧いただけます。
               </p>
-              <div class="row">
+              <div class="row  c-anim-up">
                 <div class="col">
                   <img src="/images/business/row_2_img1.png" alt="">
                 </div>
@@ -176,22 +176,22 @@
                   <img src="/images/business/row_2_img3.png" alt="">
                 </div>
               </div>
-              <a href="" class="btn_link">
+              <a href="" class="btn_link c-anim-up">
                 詳細はこちら
                 <img src="/images/business/arrow.svg" alt="">
               </a>
             </div>
             <div class="item">
-              <span class="num">03</span>
-              <h3>
+              <span class="num c-anim-up">03</span>
+              <h3 class=" c-anim-up">
                 <span>〈 生協・通販事業 〉</span>
                 時代とライフスタイルに合ったオリジナル商品を開発
               </h3>
-              <p class="desc">
+              <p class="desc c-anim-up">
                 家庭向け調理・食卓用品を中心に、インテリア用品、小物などを全国の生活協同組合様や通販事業者様にご提供しています。<br>
                 お客様のニーズに応じたオリジナル商品の開発も行っています。当社との新規取引をご検討いただける企業様には資料をお送りしています。
               </p>
-              <div class="row">
+              <div class="row c-anim-up">
                 <div class="col">
                   <img src="/images/business/row_3_img1.png" alt="">
                 </div>
@@ -202,32 +202,32 @@
                   <img src="/images/business/row_3_img3.png" alt="">
                 </div>
               </div>
-              <a href="" class="btn_link">
+              <a href="" class="btn_link c-anim-up">
                 詳細はこちら
                 <img src="/images/business/arrow.svg" alt="">
               </a>
             </div>
             <div class="item">
-              <span class="num">04</span>
-              <h3>
+              <span class="num c-anim-up">04</span>
+              <h3 class=" c-anim-up">
                 <!-- <span>〈 生協・通販事業 〉</span> -->
                 ギフト専門店 「ギフトピュア」
               </h3>
-              <p class="desc">
+              <p class="desc c-anim-up">
                 専任のギフトアドバイザーがお客様のご要望に応じて最適なギフトをお選びします。
               </p>
               <div class="row info_list">
-                  <div class="col">
+                  <div class="col c-anim-up">
                     <p>■ 取扱品目</p>
                   </div>
-                  <div class="col">
+                  <div class="col c-anim-up">
                     <p>・ 贈答品 ： 冠婚葬祭引出物、出産・進入学・快気祝い、年賀・中元・歳暮、送別・餞別など</p>
                     <p>・ 記念品 ： 新築・改築・開店・会社設立・契約記念品</p>
                     <p>・ 賞<span class="sp">　</span>品 ： 運動会・ゴルフ・ボウリングなど各種大会の賞品</p>
                     <p>・ カジュアル ： 誕生日、結婚記念日、母の日、父の日、敬老の日、七五三、手土産など</p>
                   </div>
               </div>
-              <div class="row">
+              <div class="row c-anim-up">
                 <div class="col">
                   <img src="/images/business/row_4_img1.png" alt="">
                 </div>
@@ -238,7 +238,7 @@
                   <img src="/images/business/row_4_img3.png" alt="">
                 </div>
               </div>
-              <a href="" class="btn_link">
+              <a href="" class="btn_link c-anim-up">
                 詳細はこちら
                 <img src="/images/business/arrow.svg" alt="">
               </a>

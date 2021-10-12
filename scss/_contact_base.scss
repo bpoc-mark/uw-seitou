@@ -4,9 +4,9 @@
 
 /* input, textarea
 --------------------------------*/
-$text-color: #000;
-$input_bg_color: #dddddd;
-$input_border_color: #dddddd;
+$text-color: #21201f;
+$input_bg_color: #f7f6f6;
+$input_border_color: transparent;
 
 /* radio_button
 --------------------------------*/
@@ -26,6 +26,8 @@ main#Contact {
     color: #cc0303;
     display: block;
     margin: 7px 0 0;
+    @include Noto_Sans(300);
+    font-size: 16px;
   }
 
   input:-webkit-autofill {
@@ -40,7 +42,7 @@ main#Contact {
   input[type="search"]:focus,
   input[type="url"]:focus,
   textarea:focus {
-    color: #000;
+    color: #21201f;
     background-color: $input_bg_color;
   }
 
@@ -49,6 +51,7 @@ main#Contact {
   }
 
   input[type="text"] {
+    @include Noto_Sans(300);
     font-size: 16px;
     line-height: 1.625;
     letter-spacing: 0.03em;
@@ -69,22 +72,32 @@ main#Contact {
     background: $input_bg_color;
     display: inline-block;
     position: relative;
-    max-width: 247px;
+    max-width: 490px;
     width: 100%;
     margin-right: 3px;
 
     &::before {
       content: "〒";
-      font-size: 18px;
+      @include Noto_Sans(300);
+      font-size: 16px;
       position: absolute;
-      top: 0.8em;
-      left: 24px;
+      top: 50%;
+      left: 30px;
+      transform: translate(0, -50%);
       margin: auto;
+
+      @include sp{
+        left: 20px;
+      }
     }
 
     input {
-      padding: 12px 21px 12px 55px;
+      padding: 25px 25px 25px 70px !important;
       width: 100%;
+
+      @include sp{
+        padding: 18px 15px 18px 55px !important;
+      }
     }
   }
 
@@ -110,6 +123,8 @@ main#Contact {
 
   input[type="checkbox"] {
     & + label {
+      @include Noto_Sans(300);
+      font-size: 16px;
       padding-left: 29px;
       position: relative;
       margin-right: 29px;
@@ -135,11 +150,11 @@ main#Contact {
         border-bottom: 3px solid $radio_button_in_color;
         display: block;
         height: 9px;
-        left: 7px;
+        left: 12px;
         margin-top: -8px;
         opacity: 0;
         position: absolute;
-        top: 50%;
+        top: 65%;
         transform: rotate(45deg);
         width: 5px;
       }
@@ -244,6 +259,7 @@ main#Contact {
   }
 
   textarea {
+    @include Noto_Sans(300);
     font-size: 16px;
     line-height: 1.625;
     letter-spacing: 0.03em;
@@ -252,7 +268,10 @@ main#Contact {
     box-sizing: border-box;
     width: 100%;
     padding: 12px 21px;
-    min-height: 174px;
+    min-height: 365px;
+    @include sp{
+      min-height: 280px;
+    }
   }
 
   .overscroll {
@@ -307,19 +326,20 @@ main#Contact {
     text-align: center;
 
     span {
-      font-size: 18px;
+      @include Noto_Sans(300);
+      font-size: 16px;
       line-height: 1.4;
       letter-spacing: 0.13em;
       color: $text-color;
       width: 262px;
-      background: $input_bg_color;
+      background: #fff;
       box-sizing: border-box;
       font-feature-settings: "palt";
       position: relative;
       display: inline-block;
       text-align: center;
       box-sizing: border-box;
-      border: 3px solid $input_border_color;
+      border: 1px solid #dedcd9;
       transition: all 0.3s ease;
 
       input[type="submit"] {
@@ -398,7 +418,8 @@ main#Contact {
     text-align: center;
 
     input {
-      font-size: 18px;
+      @include Noto_Sans(500);
+      font-size: 16px;
       line-height: 1.4;
       letter-spacing: 0.13em;
       color: #fff;
@@ -422,7 +443,8 @@ main#Contact {
     text-align: center;
 
     a {
-      font-size: 18px;
+      @include Noto_Sans(500);
+      font-size: 16px;
       line-height: 1.4;
       letter-spacing: 0.13em;
       color: #fff;

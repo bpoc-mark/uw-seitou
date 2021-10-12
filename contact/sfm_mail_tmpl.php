@@ -15,8 +15,15 @@ $mailMessage = <<< EOD
 内容を確認の上、速やかにお客様へ連絡してください。
 ────────────────────────────────────
 
-■お名前
+■お名前（フリガナ） 
 {$sfm_mail->name}
+{$sfm_mail->furigana}
+
+■会社名（店名）
+{$sfm_mail->store}
+
+■お電話番号
+{$sfm_mail->tel}
 
 ■メールアドレス
 {$sfm_mail->email}
@@ -25,13 +32,7 @@ $mailMessage = <<< EOD
 〒{$sfm_mail->zip}
 {$sfm_mail->address}
 
-■チェックボックス　
-{$sfm_mail->check}
-
-■セレクトボックス
-{$sfm_mail->select}
-
-■お問い合わせ内容
+■お問い合わせ内容 
 {$sfm_mail->message}
 
 

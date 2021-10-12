@@ -46,33 +46,33 @@
       <section class="sect_1">
         <div class="wrapper">
           <div class="info_cont">
-            <div class="info_head">
+            <div class="info_head c-anim-up">
               <h3>時代とライフスタイルに合ったオリジナル商品を開発</h3>
               <p>家庭向け調理・食卓用品を中心に、インテリア用品、小物などを全国の生活協同組合様や通販事業者様にご提供しています。お客様のニーズに応じたオリジナル商品の開発も行っています。当社との新規取引をご検討いただける企業様には資料をお送りしています。</p>
             </div>
-            <div class="img_cont">
+            <div class="img_cont c-anim-up">
               <img src="/images/coop/img_1.png" alt="">
               <img src="/images/coop/img_2.png" alt="">
             </div>
-            <div class="info_item">
+            <div class="info_item c-anim-up">
               <h4>〔 調理・食卓用品 〕</h4>
               <p>皿、茶碗、箸、湯飲みなど日常使いの食器や調理道具をはじめ、職人による手づくりの数量限定商品も取り扱っています。</p>
             </div>
-            <div class="info_item">
+            <div class="info_item c-anim-up">
               <h4>〔 オリジナル商品開発 〕</h4>
               <p>消費者のライフスタイルに合った魅力ある調理・食卓用品を企画・開発しています。<br>
                   耐熱陶器のグリルプレートなど、耐熱商品を得意としています。</p>
             </div>
-            <div class="info_item">
+            <div class="info_item c-anim-up">
               <h4>〔 インテリア小物、季節商品 〕</h4>
               <p>インテリア用品、仏壇用品、正月飾りなども生協・通販の人気商品となっています。</p>
             </div>
-            <div class="info_item">
+            <div class="info_item c-anim-up">
               <h4>〔 地域の発展のために 〕</h4>
               <p>地元メーカーやアーティストと連携し、地域振興につながる新商品を開発しています。</p>
             </div>
           </div>
-          <div class="row">
+          <div class="row c-anim-up">
             <div class="col">
               <h4>■ 遠州綿紬</h4>
               <p>静岡県浜松市を中心に生産されている遠州綿紬を使ったトートバッグ、保険証カバー、茶筒などを取りそろえています。</p>
@@ -90,7 +90,7 @@
               </p>
             </div>
           </div>
-          <div class="info_btm">
+          <div class="info_btm c-anim-up">
             <h4>〔 ネット通販 〕</h4>
             <p>
               Amazon、楽天で調理道具や生活用品を販売しています。<br>
