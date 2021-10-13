@@ -4080,11 +4080,11 @@ img[src$=".png"], img[src$=".jpg"] {
   content: "";
   display: block;
   background-color: #efeeec;
-  width: calc(100% - 150px);
-  height: 90.5%;
+  width: 80%;
+  height: 83.5%;
   position: absolute;
   top: -50px;
-  left: 0;
+  left: -35px;
 }
 
 #Shop main .sect_1 .wrapper .row .col .head_row.row {
@@ -4775,6 +4775,54 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Privacy
+==================================*/
+#Privacy main .jumbo_sect .wrapper {
+  background-image: url(../images/contact/bg_jumbo.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Privacy main .sect_1 .wrapper {
+  padding-left: 150px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+}
+
+#Privacy main .sect_1 .wrapper ul li {
+  margin-bottom: 40px;
+}
+
+#Privacy main .sect_1 .wrapper ul li h3 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 20px;
+  color: #21201f;
+  line-height: 35px;
+}
+
+#Privacy main .sect_1 .wrapper ul li p {
+  font-family: "Noto Sans JP";
+  font-weight: 300;
+  font-size: 16px;
+  color: #21201f;
+  line-height: 35px;
+}
+
+#Privacy main .sect_1 .wrapper ul li p.text-indent {
+  text-indent: -17px;
+  margin-left: 17px;
+}
+
+#Privacy main .sect_1 .wrapper ul li p a {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #21201f;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
@@ -5331,7 +5379,7 @@ main#Contact .contact_back a:hover {
   Contact
 ==================================*/
 main#Contact .jumbo_sect .wrapper {
-  background-image: url(../images/company/bg_jumbo.png);
+  background-image: url(../images/contact/bg_jumbo.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
